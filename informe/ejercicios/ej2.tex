@@ -416,9 +416,27 @@ De este modo, logramos abarcar los casos límite en los que la implementación p
 
 \subsubsection{Experimentación}
 
-Para las pruebas de complejidad empírica, generamos instancias aleatorias de costos de los trabajos alterando la cantidad de los mismás. Estas instancias fueron generadas en $C++$ con la función $rand()$. La cantidad de trabajos generados se comprendió entre 1000 y 100000, agregando de a 1000 en cada iteración. Las mediciones de tiempo en nanosegundos se realizaron con la función $high\ resolution\ clock$\footnote{http://en.cppreference.com/w/cpp/chrono/high\_resolution\_clock} de la librería $Chrono$ de $C++$. Debido a que éstas fueron realizadas en nanosegundos, las pruebas cuyo tamaño de la entrada era menor a 1000 se realizaba en mayor tiempo que las instancias más grandes pues el procesador le otorga más atención al no realizar cambio de contexto. De este modo, logramos medir las pruebas de nuestro algoritmo para comprobar que la complejidad correspondiera con la mencionada anteriormente.
+Para las pruebas de complejidad empírica, generamos instancias aleatorias de costos de los enlaces y servidores variando la cantidad de los mismás. Estas instancias fueron generadas en $C++$ con la función $rand()$ que recibe como parametro una semilla generada por bash. La cantidad de trabajos generados se comprendió entre 200 y 46800, agregando de a 200 en cada iteración. Las mediciones de tiempo en microsegundos se realizaron con la función $high\ resolution\ clock$\footnote{http://en.cppreference.com/w/cpp/chrono/high\_resolution\_clock} de la librería $Chrono$ de $C++$. Debido a que éstas fueron realizadas en microsegundos, las pruebas cuyo tamaño de la entrada era menor a 200 se realizaba en mayor tiempo que las instancias más grandes pues el procesador le otorga más atención al no realizar cambio de contexto. De este modo, logramos medir las pruebas de nuestro algoritmo para comprobar que la complejidad correspondiera con la mencionada anteriormente.
 
 Las funciones de complejidad con las que se compararon nuestros gráficos de tiempo fueron ajustadas por algoritmos matemáticos (proporcionados por \textbf{sci davis}). Dichos algoritmos se encargaron de multiplicarle y sumarle constantes a las funciones con el fin de que éstas se ajustaran a nuestros resultados sin modificar el comportamiento de las funciones utilizadas para comparar.
+
+% Decidimos suprimir valores de entrada evaluados para la realización del gráfico pues nos pareció importante la evolución de éstos entre los rangos de $1*10^{3}$ y $1*10^{11}$ para mostrar que, en algún punto, el tiempo de ejecución se dispara.
+
+Dado que se nos fue pedido experimentar unicamente con el subproblema 2 de este ejercicio, los unicos valores que pudimos considerar fueron la cantidad de nodos, ya que el algoritmo unicamente toma como valor de entrada grafos que sean arboles, con lo cual la cantidad de aristas esta definida por la cantidad de nodos que este arbol tenga. Los pesos de las aritas son numeros al azar entre $1$ y $150$.
+
+\begin{figure}[H]
+	\includegraphics[width=400pt]{../tests/ej2/EJ2-nodo-var.png}
+%\end{center}
+\end{figure}
+
+En este caso se puede apreciar como la comlpejidad se adapta perfectamente a los valores de entrada.\\
+La función utilizada para aproximar nuestros valores resultantes luego de las distintas ejecuciones fue $A*x+B$.
+En este caso, los valores que aproximan la función a nuestros datos son:
+
+$$desde\ x = 200\ a\ x = 46.800$$
+$$A  = 0,000480693152246956$$
+$$B  = -0,176228394042768$$
+
 
 \subsection{Preguntas adicionales}
 
