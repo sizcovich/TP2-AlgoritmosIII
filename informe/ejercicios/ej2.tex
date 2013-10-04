@@ -494,7 +494,7 @@ $$4\ 5\ 4\ 4\ 3\ 5\ 3\ 3\ 2\ 1\ 5$$
 \newline
 Como podemos observar en el gráfico anterior, el nodo $máster$ es el 5 y el costo de replicación es igual a 2. Otra solución posible hubiera sido la que tiene al 3 como nodo $máster$ ya que ésta también tiene costo de replicación 2. \newline
 \newline
-Analicemos por qué nuestro algoritmo devolvió dicha solución. En primer lugar, el árbol generador mínimo ($AGM$) retornado, se encuentra conformado por las primeras cuatro aristas que ingresamos como parámetro de entrada. Ésto se debe a que nuestro algoritmo ordena primero las aristas por su peso y luego toma las menores para generar el $AGM$. En este caso, como todas las aristas tienen el mismo peso, el algoritmo no cambia su orden y genera el $AGM$ con las primeras cuatro. \newline
+Analicemos por qué nuestro algoritmo devolvió dicha solución. En primer lugar, el árbol generador mínimo ($AGM$) retornado, se encuentra conformado por las primeras cuatro aristas que ingresamos como parámetro de entrada. Ésto se debe a que nuestro algoritmo primero las ordena por su peso y luego toma las menores para generar el $AGM$. En este caso, como todas las aristas tienen el mismo peso, el algoritmo no cambia su orden y genera el árbol con las primeras cuatro. \newline
 \newline
 Ahora veamos qué ocurre si cambiamos el orden de las aristas:
 
@@ -507,7 +507,7 @@ $$3\ \ 1\ \ 1$$
 $$1\ \ 5\ \ 1$$
 
 \newline
-Para ello, cambiemos de lugar las cuarta y quinta aristas: \newline
+Para ello, cambiemos de lugar la cuarta y quinta aristas \newline
 
 \textbf{Formato de salida:}
 $$4\ 3\ 4\ 4\ 3\ 5\ 3\ 3\ 2\ 3\ 1$$
@@ -520,18 +520,18 @@ $$4\ 3\ 4\ 4\ 3\ 5\ 3\ 3\ 2\ 3\ 1$$
 \end{figure}
 
 \newline
-Al realizar dicho cambio, el $AGM$ resultante varía. Esto se debe a que, nuevamente, nuestro algoritmo lo genera con las primeras 4 aristas. Sin embargo, esta distribución sigue siendo solución de nuestro problema ya que el costo de sus aristas sigue siendo 4. \newline
-Ahora, observemos qué sucede con nuestro nodo $máster$. El nodo máster que nos da esta solución es 3, que también era una posible solución del $AGM$ anterior. La única diferencia con la solución anterior es que, ahora, nuestro costo de replicación es igual a 1, lo que significa que éste es menor. \newline
+Al realizar dicho cambio, el $AGM$ resultante varía. Esto se debe a que, nuevamente, nuestro algoritmo lo genera con las primeras 4 aristas. Sin embargo, esta distribución sigue siendo solución de nuestro problema ya que el costo de estas sigue siendo 4. \newline
+Ahora, observemos qué sucede con nuestro nodo $máster$. El nodo que nos da esta solución es 3, que también era una posible solución del $AGM$ anterior. La única diferencia con la solución anterior es que, ahora, nuestro costo de replicación es igual a 1, lo que significa que éste es menor. \newline
 \newline
-Este es un claro ejemplo de un grafo que se resolvió dos veces de manera óptima pero cuya solución inicial indició de distinto modo en la solución del segundo ítem, donde la diferencia culminó en el orden de ingreso de los parámetros.
+Este es un claro ejemplo de un grafo que se resolvió dos veces de manera óptima pero cuya solución inicial incidió de distinto modo en la solución del segundo ítem, donde la diferencia culminó en el orden de ingreso de los parámetros.
 \newline
 \newline
-En términos generales, esto puede ocurrir para cualquier grafo en el que la solución del $ítem\ a$ (aplicar el algoritmo de Kruskal) no sea única. Esto se debe a que de todas las soluciones óptimás para el $ítem\ a$ y para cada una de estas, se va a encontrar la solución optima para el $ítem\ b$. Al hacer esto, vamos a encontrar un subconjunto de las soluciones posibles del  $ítem\ a$ que van a tener un menor costo de replicación que las demás.
+En términos generales, esto puede ocurrir para cualquier grafo en el que la solución del $ítem\ a$ (aplicar el algoritmo de Kruskal) no sea única. Esto se debe a que de todas las soluciones óptimás para este ítem van a tener una solución optima para el $ítem\ b$. Al hacer esto, vamos a encontrar un subconjunto de las soluciones posibles del  $ítem\ a$ que van a tener un menor costo de replicación que las demás.
 \newline
 \newline
 Dos posibles soluciones a esto serian:
 \begin{itemize}
-\item Para todas las soluciones posibles del  $ítem\ a$, calcular el $ítem\ b$ y me quedo con la que me de menor costo de replicación.
+\item Para todas las soluciones posibles del  $ítem\ a$, calcular el $ítem\ b$ y quedarnos con la de menor costo de replicación.
 \item Modificar el  $ítem\ a$ para que ordene primero por peso de la arista y luego por la cantidad (de mayor a menor) de nodos adyacentes que tienen ambos extremos de esta. 
 \end{itemize}
 
