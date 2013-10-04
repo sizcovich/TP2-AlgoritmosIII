@@ -299,16 +299,17 @@ Para las pruebas de complejidad empírica, generamos instancias aleatorias de gr
 
 Las funciones de complejidad con las que se compararon nuestros gráficos de tiempo fueron ajustadas por algoritmos matemáticos (proporcionados por \textbf{sci davis}). Dichos algoritmos se encargaron de multiplicarle y sumarle constantes a las funciones con el fin de que éstas se ajustaran a nuestros resultados sin modificar el comportamiento de las funciones utilizadas para comparar.
 
-El algoritmo que genera las instancias garantiza que siempre va a haber al menos una fabrica conectada directa o indirectamente a un cliente, de forma tal que la instancia no se vuelva invalida.
+El algoritmo generador de instancias utilizado garantiza que siempre existe al menos una fábrica conectada directa o indirectamente a un cliente, de forma tal que la instancia no se vuelva inválida.
 \newpage
-En una primera instancia, generamos grafos aleatorios variando la cantidad de nodos y dejando la cantidad de aristas en un valor fijo. Este valor es un porcentaje de la cantidad máxima de aristas que puede tener el grafo. El porcentaje que elegimos para determinar un grafo denso fue el $50\%$ de la cantidad máxima de aristas que puede tener el grafo. La cantidad de nodos que representan fabricas es del $50\%$.
+En primer lugar, generamos grafos aleatorios variando la cantidad de nodos y dejando la cantidad de aristas en un valor fijo. Este valor es un porcentaje de la cantidad máxima de aristas que puede tener el grafo. El elegido para determinar un grafo denso fue el $50\%$ de la cantidad máxima de aristas que puede tener el grafo. La cantidad de nodos que representan fábricas es el $50\%$.
 
 \begin{figure}[H]
+\begin{center}
 	\includegraphics[width=350pt]{../tests/ej3/EJ3-nodo-var-denso.png}
-%\end{center}
+\end{center}
 \end{figure}
 
-En este caso se puede apreciar como la complejidad se adapta perfectamente a los valores de entrada.\\
+En este caso, se puede apreciar cómo la complejidad se adapta perfectamente a los valores de entrada.\\
 La función utilizada para aproximar nuestros valores resultantes luego de las distintas ejecuciones fue $$a*(((20*(x*(x-1)/2)) / 100) + log(x)) + b$$.
 En este caso, los valores que aproximan la función a nuestros datos son:
 
@@ -316,15 +317,14 @@ $$desde\ x = 200\ a\ x = 27.600 $$
 $$a  = 1,33661247156849e-06$$
 $$b  = -1,01492247788281 $$
 
-\newpage
-Luego generamos un lote de pruebas pero para grafos livianos, estos a diferencia de los anteriores tienen $5\%$ de aristas y $5\%$ de nodos que representan fabricas.
+Luego, generamos un lote de pruebas para grafos livianos, a diferencia de los anteriores, éstos se conforman por un $5\%$ de aristas y $5\%$ de nodos que representan fábricas.
 
 \begin{figure}[H]
 	\includegraphics[width=350pt]{../tests/ej3/EJ3-nodo-var-liviano.png}
 %\end{center}
 \end{figure}
 
-En este caso se puede apreciar como la complejidad se adapta perfectamente a los valores de entrada. Respecto al caso anterior, los tiempos de ejecución son mas rápidos con lo cual se pudieron realizar mayor cantidad de pruebas. Esto deja en evidencia que la cantidad de aristas impacta directamente en la complejidad, tal como mostramos en el análisis del mismo.\\
+Al igual que en el caso anterior, se puede apreciar cómo la complejidad se adapta perfectamente a los valores de entrada. Con respecto al caso anterior, los tiempos de ejecución son más rápidos con lo cual se pudo realizar una mayor cantidad de pruebas. Esto deja en evidencia que la cantidad de aristas impacta directamente en la complejidad, tal como mostramos en el análisis del mismo.\\
 La función utilizada para aproximar nuestros valores resultantes luego de las distintas ejecuciones fue $$ a*(((20*(x*(x-1)/2)) / 100) + log(x)) + b $$.
 En este caso, los valores que aproximan la función a nuestros datos son:
 
@@ -334,14 +334,15 @@ $$b  = -0,0228951001523759 $$
 
 
 \newpage
-Luego, generamos un lote de grafos cuya cantidad de nodos esta fija, y variamos la cantidad de aristas entre 1 y 100 por ciento sobre la capacidad máxima de aristas que puede soportar el grafo. La cantidad de nodos que elegimos para este grafo es de $3000$. La cantidad de fabricas en este caso definido como denso es del $20\%$.
+Luego, generamos un lote de grafos cuya cantidad de nodos está fija, variando la cantidad de aristas entre 1 y 100$\%$ sobre la capacidad máxima de aristas que puede soportar el grafo. La cantidad de nodos que elegimos para este grafo es de $3000$. La cantidad de fábricas en este caso es del $20\%$.
 
 \begin{figure}[H]
+\begin{center}
 	\includegraphics[width=350pt]{../tests/ej3/EJ3-r-var-denso.png}
-%\end{center}
+\end{center}
 \end{figure}
 
-En este caso se puede apreciar como la complejidad se adapta perfectamente a los valores de entrada. Debido a que la función de complejidad fija la parte logarítmica, los valores resultantes se parecen a una función lineal, lo cual tiene sentido ya que la única variable que se modifica a lo largo de las pruebas es lineal.\\
+Nuevamente, podemos ver que la complejidad se adapta a los valores de entrada. Debido a que la función de complejidad fija la parte logarítmica, los valores resultantes se parecen a una función lineal, lo cual tiene sentido ya que la única variable que se modifica a lo largo de las pruebas es lineal.\\
 La función utilizada para aproximar nuestros valores resultantes luego de las distintas ejecuciones fue $$a*((x*(3000*(3000-1)/2))/100)*log(3000)+b $$.
 En este caso, los valores que aproximan la función a nuestros datos son:
 
@@ -350,14 +351,15 @@ $$a  = 1,27748699850107e-07$$
 $$b  = -0,0359196477978645 $$
 
 \newpage
-Luego, generamos un lote igual al anterior excepto por el porcentaje de fabricas, esto lo hicimos para ver si la complejidad se veía afectada por la cantidad de conexiones de nodos fantasmas que el programa hacia. El porcentaje de fabricas para este caso es de $1\%$.
+Luego, generamos un lote igual al anterior excepto por el porcentaje de fábricas, esto lo hicimos para ver si la complejidad se veía afectada por la cantidad de conexiones de nodos fantasmas que el programa hace. El porcentaje de fábricas para este caso es del $1\%$.
 
 \begin{figure}[H]
+\begin{center}
 	\includegraphics[width=350pt]{../tests/ej3/EJ3-r-var-liviano.png}
-%\end{center}
+\end{center}
 \end{figure}
 
-En este caso se puede apreciar como la complejidad se adapta perfectamente a los valores de entrada, y concluimos que la cantidad de fabricas no modifica la complejidad del algoritmo, siento los tiempos del grafico iguales al anterior.\\
+Podemos ver que la función de complejidad se adapta a los valores medidos y podemos concluir que la cantidad de fábricas no modifica la complejidad del algoritmo, siendo los tiempos del gráfico iguales al anterior.\\
 La función utilizada para aproximar nuestros valores resultantes luego de las distintas ejecuciones fue $$ a*((x*(3000*(3000-1)/2))/100)*log(3000)+b$$.
 En este caso, los valores que aproximan la función a nuestros datos son:
 
@@ -366,7 +368,7 @@ $$a  = 1,28059038055647e-07$$
 $$b  = -0,038836147808835$$
 
 \newpage 
-Finalmente, veamos un caso en el cual quisimos analizar el caso en el cual variáramos la cantidad de nodos que representan fabricas, para ver si esto influía en los tiempos de ejecución del algoritmo. Hicimos dos lotes, en el primero, que definimos como denso, la cantidad de aristas esta en función de la cantidad de nodos, esta cantidad es del $20\%$ y en el segundo lote que definimos como liviano pusimos la mínima cantidad de aristas, siendo esta el mínimo para garantizar que las instancias de los problemas sean validas. La cantidad de nodos de este grafo es de $3000$.
+Finalmente, veamos un caso en el que varía la cantidad de nodos que representan fábricas para ver si influye en los tiempos de ejecución del algoritmo. Para ello, creamos dos lotes. En el primero, que definimos como denso, la cantidad de aristas está en función de la cantidad de nodos, siendo ésta del $20\%$. En el segundo lote, que definimos como liviano, pusimos la mínima cantidad de aristas, siendo ésta la mínimo para garantizar que las instancias de los problemas fueran válidas. La cantidad de nodos de este grafo es de $3000$.
 
 \begin{figure}[H]
 \begin{center}
