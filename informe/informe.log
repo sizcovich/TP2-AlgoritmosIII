@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.13)  4 OCT 2013 15:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.16)  4 OCT 2013 15:33
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **informe.tex
 (./informe.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, spanish, galician, catalan, loaded.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,23 +24,20 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
 \Gm@cntv=\count88
@@ -49,44 +46,41 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/05/16 v3.9f The Babel package
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2010/05/23 v5.0j Spanish support from the babel system
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
+(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count90
-\U@D=\dimen111
+\U@D=\dimen107
 )
 \es@datefmt=\count91
 \es@quottoks=\toks16
 \es@quotdepth=\count92
-Package babel Info: Making " an active character on input line 495.
-Package babel Info: Making . an active character on input line 588.
-Package babel Info: Making < an active character on input line 633.
-Package babel Info: Making > an active character on input line 633.
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -236,7 +230,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -267,7 +261,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -291,7 +285,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -302,41 +296,34 @@ Now handling font encoding U ...
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen112
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen108
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/rotating/rotating.sty
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gread@gobject=\count93
 ))
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count94
@@ -345,16 +332,15 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box26
 \rot@mess@toks=\toks19
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/indentfirst.sty
+(/usr/share/texmf-texlive/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
-)
-(./caratula.sty
+) (./caratula.sty
 
 LaTeX Warning: You have requested package `caratula',
                but the package provides `packages/caratula'.
@@ -363,26 +349,26 @@ Package: packages/caratula 2003/4/13 v0.1 Para componer caratulas de TPs del DC
 
 Cargando package 'caratula' v0.2 (21/4/2003)
 \intlist=\toks20
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty
-Package: gnuplottex 2013/07/23 v0.7 gnuplot graphs in LaTeX
+) (/usr/share/texmf-texlive/tex/latex/gnuplottex/gnuplottex.sty
+Package: gnuplottex 2007/10/13 v0.4.2 gnuplot graphs in LaTeX
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/moreverb/moreverb.sty
-Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+(/usr/share/texmf-texlive/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3 `more' verbatim facilities
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks21
 \verbatim@line=\toks22
 \verbatim@in@stream=\read1
 )
+\verbatim@out=\write3
 \tab@position=\count95
 \tab@size=\count96
 \listing@line=\count97
 )
-\verbatim@out=\write3
-runsystem(touch w18-test-2013104916.tex)...disabled (restricted).
+runsystem(touch /tmp/w18-test-2013104933)...disabled.
 
-runsystem(rm -f w18-test-2013104916.tex)...disabled (restricted).
+runsystem(rm -f /tmp/w18-test-2013104933)...disabled.
 
 
 
@@ -390,120 +376,140 @@ Package gnuplottex Warning: Shell escape not enabled.
 (gnuplottex)                You'll need to convert the graphs yourself..
 
 \c@fignum=\count98
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/epsfig.sty
+) (/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen115
-\epsfysize=\dimen116
-)
-(./lastpage.sty
+\epsfxsize=\dimen111
+\epsfysize=\dimen112
+) (./lastpage.sty
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks23
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
 \lst@mode=\count99
 \lst@gtempboxa=\box27
 \lst@token=\toks24
 \lst@length=\count100
-\lst@currlwidth=\dimen117
+\lst@currlwidth=\dimen113
 \lst@column=\count101
 \lst@pos=\count102
-\lst@lostspace=\dimen118
-\lst@width=\dimen119
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
 \lst@newlines=\count103
 \lst@lineno=\count104
-\lst@maxwidth=\dimen120
+\lst@maxwidth=\dimen116
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/05 1.5a (Carsten Heinz)
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count105
 \lst@skipnumbers=\count106
 \lst@framebox=\box28
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/05 1.5a listings configuration
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
-Package: listings 2013/08/05 1.5a (Carsten Heinz)
-
-(./adjustbox.sty
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+ (./adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+(/usr/share/texmf-texlive/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-texlive/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 \XKV@depth=\count107
-File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
-))
-(./adjcalc.sty
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+)) (./adjcalc.sty
 Package: adjcalc 2011/08/07 v1.0 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
-) (./trimclip.sty
+)
+(./trimclip.sty
 Package: trimclip 
  (./collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box29
 )
-\tc@llx=\dimen121
-\tc@lly=\dimen122
-\tc@urx=\dimen123
-\tc@ury=\dimen124
-Package trimclip Info: Using driver 'tc-pdftex.def'. on input line 380.
+\tc@llx=\dimen117
+\tc@lly=\dimen118
+\tc@urx=\dimen119
+\tc@ury=\dimen120
+ (./tc-pgf.def
+File: tc-pgf.def 2012/05/13 v1.0 trimclip fall-back clipping driver using PGF
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box30
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-\adjbox@Width=\dimen125
-\adjbox@Height=\dimen126
-\adjbox@Depth=\dimen127
-\adjbox@Totalheight=\dimen128
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count108
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box30
-\sift@deathcycles=\count109
-\@vwid@loff=\dimen129
-\@vwid@roff=\dimen130
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2013/05/30 v0.4u Insert pages of external PDF documents (AM)
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count110
-\calc@Bcount=\count111
-\calc@Adimen=\dimen131
-\calc@Bdimen=\dimen132
-\calc@Askip=\skip54
-\calc@Bskip=\skip55
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count112
-\calc@Cskip=\skip56
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen121
+\pgf@y=\dimen122
+\pgf@xa=\dimen123
+\pgf@ya=\dimen124
+\pgf@xb=\dimen125
+\pgf@yb=\dimen126
+\pgf@xc=\dimen127
+\pgf@yc=\dimen128
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count112
+\pgfsyssoftpath@bigbuffer@items=\count113
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+(/etc/texmf/tex/latex/config/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -516,30 +522,179 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2013/05/30 v0.4u Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box31
-\AM@toc@title=\toks27
-\c@AM@survey=\count113
-\AM@templatesizebox=\box32
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/05 1.5a listings language file
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/05 1.5a (Carsten Heinz)
-)
-(./algorithm2e.sty
-Package: algorithm2e 2008/00/00 v3.10 algorithms environments
-\c@AlgoLine=\count114
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen129
+\pgfmath@count=\count114
+\pgfmath@box=\box31
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count115
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen130
+\pgf@picmaxx=\dimen131
+\pgf@picminy=\dimen132
+\pgf@picmaxy=\dimen133
+\pgf@pathminx=\dimen134
+\pgf@pathmaxx=\dimen135
+\pgf@pathminy=\dimen136
+\pgf@pathmaxy=\dimen137
+\pgf@xx=\dimen138
+\pgf@xy=\dimen139
+\pgf@yx=\dimen140
+\pgf@yy=\dimen141
+\pgf@zx=\dimen142
+\pgf@zy=\dimen143
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen144
+\pgf@path@lasty=\dimen145
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen146
+\pgf@shorten@start@additional=\dimen147
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count116
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen148
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen149
+\pgf@pt@y=\dimen150
+\pgf@pt@temp=\dimen151
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen152
+\pgf@sys@shading@range@num=\count117
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box35
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box36
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen153
+\pgf@nodesepend=\dimen154
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+)))
+Package trimclip Info: Using fall-back PGF driver. on input line 380.
+)
+\adjbox@Width=\dimen155
+\adjbox@Height=\dimen156
+\adjbox@Depth=\dimen157
+\adjbox@Totalheight=\dimen158
+
+(/usr/share/texmf-texlive/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box37
+\sift@deathcycles=\count118
+\@vwid@loff=\dimen159
+\@vwid@roff=\dimen160
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen161
+\calc@Bdimen=\dimen162
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count121
+\calc@Cskip=\skip56
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+)
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box38
+\AM@toc@title=\toks34
+\c@AM@survey=\count122
+\AM@templatesizebox=\box39
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+) (./algorithm2e.sty
+Package: algorithm2e 2008/00/00 v3.10 algorithms environments
+\c@AlgoLine=\count123
+
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/relsize.sty
+Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
 Package `algorithm2e' Release 4.01 -- december 14 2009 --
@@ -556,37 +711,34 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \skiplength=\skip62
 \algomargin=\skip63
 \skipalgocfslide=\skip64
-\algowidth=\dimen133
-\inoutsize=\dimen134
-\inoutline=\dimen135
-\interspacetitleruled=\dimen136
-\interspacealgoruled=\dimen137
-\interspacetitleboxruled=\dimen138
-\algocf@inoutbox=\box33
-\algocf@inputbox=\box34
+\algowidth=\dimen163
+\inoutsize=\dimen164
+\inoutline=\dimen165
+\interspacetitleruled=\dimen166
+\interspacealgoruled=\dimen167
+\interspacetitleboxruled=\dimen168
+\algocf@inoutbox=\box40
+\algocf@inputbox=\box41
 \AlCapSkip=\skip65
 \AlCapHSkip=\skip66
-\algocf@nlbox=\box35
-\algocf@hangingbox=\box36
-\algocf@capbox=\box37
+\algocf@nlbox=\box42
+\algocf@hangingbox=\box43
+\algocf@capbox=\box44
 \algoheightruledefault=\skip67
 \algoheightrule=\skip68
 \algotitleheightruledefault=\skip69
 \algotitleheightrule=\skip70
-\c@algocfline=\count115
-\c@algocfproc=\count116
-\c@algocf=\count117
-\algocf@algoframe=\box38
-\algocf@algobox=\box39
+\c@algocfline=\count124
+\c@algocfproc=\count125
+\c@algocf=\count126
+\algocf@algoframe=\box45
+\algocf@algobox=\box46
 ) (./float.sty
 Style-Option: `float' 1.1c 18 Dec 92 (AL)
-\float@type=\count118
-\float@box=\box40
-\@floatcapt=\box41
-) (./informe.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-)
+\float@type=\count127
+\float@box=\box47
+\@floatcapt=\box48
+) (./informe.aux)
 \openout1 = `informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -602,122 +754,79 @@ LaTeX Font Info:    ... okay on input line 50.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 441.01772pt, 71.1319pt)
-* v-part:(T,H,B)=(71.13188pt, 697.09251pt, 76.82245pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=441.01772pt
-* \textheight=697.09251pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-38.1381pt
-* \headheight=13.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 85.35826pt, 441.01772pt, 71.1319pt
+v-parts: 71.13188pt, 697.09251pt, 76.82245pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  441.01772pt
+\textheight 697.09251pt
+\oddsidemargin  13.08827pt
+\evensidemargin 13.08827pt
+\topmargin  -38.1381pt
+\headheight 13.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 57.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
 
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen139
-\scratchbox=\box42
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen140
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks29
-) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+\scratchcounter=\count128
+\scratchdimen=\dimen169
+\scratchbox=\box49
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen170
+\MPnumerator=\count132
+\everyMPtoPDFconversion=\toks36
 )
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\c@lstlisting=\count125
-\AtBeginShipoutBox=\box43
+\c@lstlisting=\count133
+ ABD: EveryShipout initializing macros
 LaTeX Font Info:    Try loading font information for U+lasy on input line 61.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./info
-rme.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./informe.toc
 
 LaTeX Warning: Command \' invalid in math mode on input line 16.
 
@@ -752,8 +861,8 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 [2])
-\tf@toc=\write4
-\openout4 = `informe.toc'.
+\tf@toc=\write5
+\openout5 = `informe.toc'.
 
  [3] [4] (./ejercicios/ej1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--13
@@ -800,13 +909,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
 
-[5] <imgs/../imgs/ejemplo1ej1.jpg, id=28, 798.985pt x 355.3275pt>
+[5] <imgs/../imgs/ejemplo1ej1.jpg, id=30, 798.985pt x 355.3275pt>
 File: imgs/../imgs/ejemplo1ej1.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo1ej1.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo1ej1.jpg used on input line 42.
-(pdftex.def)             Requested size: 250.0pt x 111.18053pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -837,13 +943,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<imgs/../imgs/ejemplo2ej1.jpg, id=29, 786.94pt x 349.305pt>
+<imgs/../imgs/ejemplo2ej1.jpg, id=31, 786.94pt x 349.305pt>
 File: imgs/../imgs/ejemplo2ej1.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo2ej1.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo2ej1.jpg used on input line 63.
-(pdftex.def)             Requested size: 250.0pt x 110.96439pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -855,7 +958,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[6 <./imgs/../imgs/ejemplo1ej1.jpg> <./imgs/../imgs/ejemplo2ej1.jpg>]
+[6 <./imgs/../imgs/ejemplo1ej1.jpg (PNG copy)> <./imgs/../imgs/ejemplo2ej1.jpg 
+(PNG copy)>]
 
 LaTeX Warning: Command \' invalid in math mode on input line 74.
 
@@ -1075,13 +1179,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../imgs/arbol.jpg, id=33, 870.25125pt x 340.27126pt>
+<imgs/../imgs/arbol.jpg, id=35, 870.25125pt x 340.27126pt>
 File: imgs/../imgs/arbol.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/arbol.jpg>
-Package pdftex.def Info: imgs/../imgs/arbol.jpg used on input line 98.
-(pdftex.def)             Requested size: 400.0pt x 156.40205pt.
-
 Underfull \hbox (badness 10000) in paragraph at lines 93--101
 
  []
@@ -1097,33 +1198,21 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../imgs/leyendaArbol.jpg, id=34, 153.57375pt x 85.31876pt>
+<imgs/../imgs/leyendaArbol.jpg, id=36, 153.57375pt x 85.31876pt>
 File: imgs/../imgs/leyendaArbol.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/leyendaArbol.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendaArbol.jpg used on input line 102.
-(pdftex.def)             Requested size: 40.0pt x 22.22139pt.
-
-<imgs/../imgs/Cerocero.jpg, id=35, 151.56625pt x 86.3225pt>
+<imgs/../imgs/Cerocero.jpg, id=37, 151.56625pt x 86.3225pt>
 File: imgs/../imgs/Cerocero.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/Cerocero.jpg>
-Package pdftex.def Info: imgs/../imgs/Cerocero.jpg used on input line 102.
-(pdftex.def)             Requested size: 40.0pt x 22.78181pt.
-
-<imgs/../imgs/ij.jpg, id=36, 150.5625pt x 83.31125pt>
+<imgs/../imgs/ij.jpg, id=38, 150.5625pt x 83.31125pt>
 File: imgs/../imgs/ij.jpg Graphic file (type jpg)
 
-<use imgs/../imgs/ij.jpg>
-Package pdftex.def Info: imgs/../imgs/ij.jpg used on input line 102.
-(pdftex.def)             Requested size: 40.0pt x 22.1333pt.
- <imgs/../imgs/ji.jpg, id=37, 152.57pt x 81.30376pt>
+<use imgs/../imgs/ij.jpg> <imgs/../imgs/ji.jpg, id=39, 152.57pt x 81.30376pt>
 File: imgs/../imgs/ji.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ji.jpg>
-Package pdftex.def Info: imgs/../imgs/ji.jpg used on input line 102.
-(pdftex.def)             Requested size: 40.0pt x 21.31587pt.
-
 
 LaTeX Warning: Command \' invalid in math mode on input line 102.
 
@@ -1190,7 +1279,7 @@ Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
-[7 <./imgs/../imgs/arbol.jpg>]
+[7 <./imgs/../imgs/arbol.jpg (PNG copy)>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1251,12 +1340,12 @@ l.155     }
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[8 <./imgs/../imgs/leyendaArbol.jpg> <./imgs/../imgs/Cerocero.jpg> <./imgs/../i
-mgs/ij.jpg> <./imgs/../imgs/ji.jpg>]
+[8 <./imgs/../imgs/leyendaArbol.jpg (PNG copy)> <./imgs/../imgs/Cerocero.jpg (P
+NG copy)> <./imgs/../imgs/ij.jpg (PNG copy)> <./imgs/../imgs/ji.jpg (PNG copy)>
+]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
 
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -1288,14 +1377,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-[10] <imgs/../tests/ej1/testChico.png, id=55, 772.8875pt x 575.14874pt>
+[10] <imgs/../tests/ej1/testChico.png, id=57, 772.8875pt x 575.14874pt>
 File: imgs/../tests/ej1/testChico.png Graphic file (type png)
 
 <use imgs/../tests/ej1/testChico.png>
-Package pdftex.def Info: imgs/../tests/ej1/testChico.png used on input line 225
-.
-(pdftex.def)             Requested size: 350.0pt x 260.45566pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -1307,14 +1392,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../tests/ej1/testGrande.png, id=56, 740.7675pt x 558.085pt>
+<imgs/../tests/ej1/testGrande.png, id=58, 740.7675pt x 558.085pt>
 File: imgs/../tests/ej1/testGrande.png Graphic file (type png)
 
 <use imgs/../tests/ej1/testGrande.png>
-Package pdftex.def Info: imgs/../tests/ej1/testGrande.png used on input line 25
-2.
-(pdftex.def)             Requested size: 350.0pt x 263.68805pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -1327,14 +1408,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [11 <./imgs/../tests/ej1/testChico.png (PNG copy)>]
-<imgs/../tests/ej1/testIguales.png, id=60, 797.98125pt x 623.32875pt>
+<imgs/../tests/ej1/testIguales.png, id=62, 797.98125pt x 623.32875pt>
 File: imgs/../tests/ej1/testIguales.png Graphic file (type png)
 
 <use imgs/../tests/ej1/testIguales.png>
-Package pdftex.def Info: imgs/../tests/ej1/testIguales.png used on input line 2
-81.
-(pdftex.def)             Requested size: 350.0pt x 273.39046pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -1523,14 +1600,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
 
-[14] <imgs/../imgs/ejemplo1ej2ent.jpg, id=71, 395.4775pt x 361.35pt>
+[14] <imgs/../imgs/ejemplo1ej2ent.jpg, id=73, 395.4775pt x 361.35pt>
 File: imgs/../imgs/ejemplo1ej2ent.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo1ej2ent.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo1ej2ent.jpg used on input line 43.
-
-(pdftex.def)             Requested size: 210.0pt x 191.8785pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -1542,14 +1615,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../imgs/ejemplo1ej2sal.jpg, id=72, 388.45125pt x 362.35374pt>
+<imgs/../imgs/ejemplo1ej2sal.jpg, id=74, 388.45125pt x 362.35374pt>
 File: imgs/../imgs/ejemplo1ej2sal.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo1ej2sal.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo1ej2sal.jpg used on input line 53.
-
-(pdftex.def)             Requested size: 210.0pt x 195.89479pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -1571,15 +1640,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--62
 
  []
 
-[15 <./imgs/../imgs/ejemplo1ej2ent.jpg> <./imgs/../imgs/ejemplo1ej2sal.jpg>]
-<imgs/../imgs/ejemplo2ej2ent.jpg, id=76, 892.33376pt x 392.46625pt>
+[15 <./imgs/../imgs/ejemplo1ej2ent.jpg (PNG copy)> <./imgs/../imgs/ejemplo1ej2s
+al.jpg (PNG copy)>]
+<imgs/../imgs/ejemplo2ej2ent.jpg, id=78, 892.33376pt x 392.46625pt>
 File: imgs/../imgs/ejemplo2ej2ent.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo2ej2ent.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo2ej2ent.jpg used on input line 72.
-
-(pdftex.def)             Requested size: 300.0pt x 131.9456pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -1591,14 +1657,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../imgs/ejemplo2ej2sal.jpg, id=77, 894.34125pt x 391.4625pt>
+<imgs/../imgs/ejemplo2ej2sal.jpg, id=79, 894.34125pt x 391.4625pt>
 File: imgs/../imgs/ejemplo2ej2sal.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo2ej2sal.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo2ej2sal.jpg used on input line 82.
-
-(pdftex.def)             Requested size: 300.0pt x 131.31546pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -1625,7 +1687,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
 
-[16 <./imgs/../imgs/ejemplo2ej2ent.jpg> <./imgs/../imgs/ejemplo2ej2sal.jpg>]
+[16 <./imgs/../imgs/ejemplo2ej2ent.jpg (PNG copy)> <./imgs/../imgs/ejemplo2ej2s
+al.jpg (PNG copy)>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1840,27 +1903,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--175
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--189
+Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--189
+Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
@@ -1869,20 +1942,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 ...s.com/reference/vector/vector/push_back/}
+l.210 ...s.com/reference/vector/vector/push_back/}
                                                   . Por lo tanto, generar la...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1890,19 +1953,19 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 ...s.com/reference/vector/vector/push_back/}
+l.210 ...s.com/reference/vector/vector/push_back/}
                                                   . Por lo tanto, generar la...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [19]
 
-LaTeX Warning: Command \' invalid in math mode on input line 225.
+LaTeX Warning: Command \' invalid in math mode on input line 216.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.225 ...section{Selección de servidor $máster$}
+l.216 ...section{Selección de servidor $máster$}
                                                   
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -1910,7 +1973,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.225 ...section{Selección de servidor $máster$}
+l.216 ...section{Selección de servidor $máster$}
                                                   
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1920,41 +1983,8 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.225 ...section{Selección de servidor $máster$}
+l.216 ...section{Selección de servidor $máster$}
                                                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no � in font cmex10!
-Missing character: There is no � in font cmex10!
-
-LaTeX Warning: Command \' invalid in math mode on input line 230.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.230 ...camino de longitud máxima es $BFS$ $(Bú
-                                                  squeda\ en\ anchura)$. És...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.230 ...camino de longitud máxima es $BFS$ $(Bú
-                                                  squeda\ en\ anchura)$. És...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-<argument> ...cefactor \spacefactor }\spacefactor 
-                                                  \accent@spacefactor 
-l.230 ...camino de longitud máxima es $BFS$ $(Bú
-                                                  squeda\ en\ anchura)$. És...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -1965,7 +1995,7 @@ Missing character: There is no � in font cmex10!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.244     Distancia($nodoInicial$) \leftarrow
+l.235     Distancia($nodoInicial$) \leftarrow
                                               0\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1977,7 +2007,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244     Distancia($nodoInicial$) \leftarrow 0\\
+l.235     Distancia($nodoInicial$) \leftarrow 0\\
                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1986,7 +2016,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.244     Distancia($nodoInicial$) \leftarrow 0\\
+l.235     Distancia($nodoInicial$) \leftarrow 0\\
                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1998,7 +2028,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 	}
+l.246 	}
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2007,7 +2037,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.255 	}
+l.246 	}
         
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2019,7 +2049,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 	}
+l.246 	}
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2028,40 +2058,33 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.255 	}
+l.246 	}
         
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--261
+Underfull \hbox (badness 10000) in paragraph at lines 219--252
 
  []
 
 
-Overfull \hbox (42.04341pt too wide) in paragraph at lines 228--261
-\OT1/cmr/m/n/10 El al-go-rit-mo que uti-li-za-mos pa-ra en-con-trar el ca-mino 
-de lon-gi-tud m^^Saxi-ma es $\OML/cmm/m/it/10 BFS$ $\OT1/cmr/m/n/10 (\OML/cmm/m
-/it/10 B[]squeda en anchura\OT1/cmr/m/n/10 )$.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--261
+Underfull \hbox (badness 10000) in paragraph at lines 219--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--261
+Underfull \hbox (badness 10000) in paragraph at lines 219--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--261
+Underfull \hbox (badness 10000) in paragraph at lines 219--252
 
  []
 
 
-Overfull \hbox (25.00003pt too wide) in paragraph at lines 228--261
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 219--252
 []$ 
  []
 
@@ -2073,51 +2096,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 \newline
+l.263 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--283
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
-<imgs/../imgs/ej2casos02.jpg, id=98, 415.5525pt x 206.7725pt>
+<imgs/../imgs/ej2casos02.jpg, id=100, 415.5525pt x 206.7725pt>
 File: imgs/../imgs/ej2casos02.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ej2casos02.jpg>
-Package pdftex.def Info: imgs/../imgs/ej2casos02.jpg used on input line 288.
-(pdftex.def)             Requested size: 260.0pt x 129.37762pt.
-
-<imgs/../imgs/leyendacasosej2.jpg, id=99, 414.54875pt x 82.3075pt>
+<imgs/../imgs/leyendacasosej2.jpg, id=101, 414.54875pt x 82.3075pt>
 File: imgs/../imgs/leyendacasosej2.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/leyendacasosej2.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendacasosej2.jpg used on input line 29
-4.
-(pdftex.def)             Requested size: 150.0pt x 29.78137pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
-l.296 \end{figure}
+l.287 \end{figure}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2125,41 +2141,36 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[21 <./imgs/../imgs/ej2casos02.jpg> <./imgs/../imgs/leyendacasosej2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+[21 <./imgs/../imgs/ej2casos02.jpg (PNG copy)> <./imgs/../imgs/leyendacasosej2.
+jpg (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
-<imgs/../imgs/ej2casos01.jpg, id=103, 436.63126pt x 294.09875pt>
+<imgs/../imgs/ej2casos01.jpg, id=105, 436.63126pt x 294.09875pt>
 File: imgs/../imgs/ej2casos01.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ej2casos01.jpg>
-Package pdftex.def Info: imgs/../imgs/ej2casos01.jpg used on input line 311.
-(pdftex.def)             Requested size: 240.0pt x 161.65608pt.
 File: imgs/../imgs/leyendacasosej2.jpg Graphic file (type jpg)
  <use imgs/../imgs/leyendacasosej2.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendacasosej2.jpg used on input line 31
-6.
-(pdftex.def)             Requested size: 150.0pt x 29.78137pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--319
+Underfull \hbox (badness 10000) in paragraph at lines 298--310
 
  []
 
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
-l.319 \end{figure}
+l.310 \end{figure}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2168,26 +2179,20 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-<imgs/../imgs/ej2casos03.jpg, id=104, 411.5375pt x 143.53625pt>
+<imgs/../imgs/ej2casos03.jpg, id=106, 411.5375pt x 143.53625pt>
 File: imgs/../imgs/ej2casos03.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ej2casos03.jpg>
-Package pdftex.def Info: imgs/../imgs/ej2casos03.jpg used on input line 329.
-(pdftex.def)             Requested size: 240.0pt x 83.70663pt.
 File: imgs/../imgs/leyendacasosej2.jpg Graphic file (type jpg)
  <use imgs/../imgs/leyendacasosej2.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendacasosej2.jpg used on input line 33
-4.
-(pdftex.def)             Requested size: 150.0pt x 29.78137pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
-l.337 \end{figure}
+l.328 \end{figure}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2195,58 +2200,59 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[22 <./imgs/../imgs/ej2casos01.jpg> <./imgs/../imgs/ej2casos03.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 346--348
+[22 <./imgs/../imgs/ej2casos01.jpg (PNG copy)> <./imgs/../imgs/ej2casos03.jpg (
+PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--354
+Underfull \hbox (badness 10000) in paragraph at lines 342--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--354
+Underfull \hbox (badness 10000) in paragraph at lines 342--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--362
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--365
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--368
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 373--375
+Underfull \hbox (badness 10000) in paragraph at lines 364--366
 
  []
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 391.
+LaTeX Warning: Command \' invalid in math mode on input line 382.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.391 ...e ralentizara, luego, el trabajo del $má
+l.382 ...e ralentizara, luego, el trabajo del $má
                                                   ster$. Este caso nos permi...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2254,7 +2260,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.391 ...e ralentizara, luego, el trabajo del $má
+l.382 ...e ralentizara, luego, el trabajo del $má
                                                   ster$. Este caso nos permi...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2264,8 +2270,41 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.391 ...e ralentizara, luego, el trabajo del $má
+l.382 ...e ralentizara, luego, el trabajo del $má
                                                   ster$. Este caso nos permi...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 382.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.382 ...legir el camino mínimo antes que el $má
+                                                  ster$, sino que depende lo...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.382 ...legir el camino mínimo antes que el $má
+                                                  ster$, sino que depende lo...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.382 ...legir el camino mínimo antes que el $má
+                                                  ster$, sino que depende lo...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -2279,40 +2318,7 @@ LaTeX Warning: Command \' invalid in math mode on input line 391.
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.391 ...legir el camino mínimo antes que el $má
-                                                  ster$, sino que depende lo...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.391 ...legir el camino mínimo antes que el $má
-                                                  ster$, sino que depende lo...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! You can't use `\spacefactor' in math mode.
-<argument> ...cefactor \spacefactor }\spacefactor 
-                                                  \accent@spacefactor 
-l.391 ...legir el camino mínimo antes que el $má
-                                                  ster$, sino que depende lo...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no � in font cmex10!
-Missing character: There is no � in font cmex10!
-
-LaTeX Warning: Command \' invalid in math mode on input line 400.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.400 ...osto permitiera, luego, encontrar un $má
+l.391 ...osto permitiera, luego, encontrar un $má
                                                   ster$ eficiente.\newline
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2320,7 +2326,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.400 ...osto permitiera, luego, encontrar un $má
+l.391 ...osto permitiera, luego, encontrar un $má
                                                   ster$ eficiente.\newline
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2330,7 +2336,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.400 ...osto permitiera, luego, encontrar un $má
+l.391 ...osto permitiera, luego, encontrar un $má
                                                   ster$ eficiente.\newline
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2340,27 +2346,23 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 435--438
+Underfull \hbox (badness 10000) in paragraph at lines 426--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--438
+Underfull \hbox (badness 10000) in paragraph at lines 426--429
 
  []
 
-[25] <imgs/../imgs/pregAdicional01.jpg, id=118, 435.6275pt x 265.99374pt>
+[25] <imgs/../imgs/pregAdicional01.jpg, id=120, 435.6275pt x 265.99374pt>
 File: imgs/../imgs/pregAdicional01.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/pregAdicional01.jpg>
-Package pdftex.def Info: imgs/../imgs/pregAdicional01.jpg used on input line 44
-9.
-(pdftex.def)             Requested size: 250.0pt x 152.64893pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
-l.452 \end{figure}
+l.443 \end{figure}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2375,29 +2377,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.453 \newline
+l.444 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
-<imgs/../imgs/pregAdicional02.jpg, id=119, 423.5825pt x 271.0125pt>
+<imgs/../imgs/pregAdicional02.jpg, id=121, 423.5825pt x 271.0125pt>
 File: imgs/../imgs/pregAdicional02.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/pregAdicional02.jpg>
-Package pdftex.def Info: imgs/../imgs/pregAdicional02.jpg used on input line 46
-2.
-(pdftex.def)             Requested size: 250.0pt x 159.94974pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
-l.465 \end{figure}
+l.456 \end{figure}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2405,7 +2403,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[26 <./imgs/../imgs/pregAdicional01.jpg>]
+[26 <./imgs/../imgs/pregAdicional01.jpg (PNG copy)>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2413,19 +2411,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.467 \newline
+l.458 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 468.
+LaTeX Warning: Command \' invalid in math mode on input line 459.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.468 ...var en el gráfico anterior, el nodo $má
+l.459 ...var en el gráfico anterior, el nodo $má
                                                   ster$ es el 5 y el costo d...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2433,7 +2431,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.468 ...var en el gráfico anterior, el nodo $má
+l.459 ...var en el gráfico anterior, el nodo $má
                                                   ster$ es el 5 y el costo d...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2443,7 +2441,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.468 ...var en el gráfico anterior, el nodo $má
+l.459 ...var en el gráfico anterior, el nodo $má
                                                   ster$ es el 5 y el costo d...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2453,12 +2451,12 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 468.
+LaTeX Warning: Command \' invalid in math mode on input line 459.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.468 ...era sido la que tiene al 3 como nodo $má
+l.459 ...era sido la que tiene al 3 como nodo $má
                                                   ster$ ya que ésta tambié...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2466,7 +2464,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.468 ...era sido la que tiene al 3 como nodo $má
+l.459 ...era sido la que tiene al 3 como nodo $má
                                                   ster$ ya que ésta tambié...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2476,7 +2474,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.468 ...era sido la que tiene al 3 como nodo $má
+l.459 ...era sido la que tiene al 3 como nodo $má
                                                   ster$ ya que ésta tambié...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2486,12 +2484,12 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--473
+Underfull \hbox (badness 10000) in paragraph at lines 459--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--473
+Underfull \hbox (badness 10000) in paragraph at lines 459--464
 
  []
 
@@ -2502,29 +2500,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.482 \newline
+l.473 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
-<imgs/../imgs/pregAdicional03.jpg, id=123, 431.6125pt x 262.9825pt>
+<imgs/../imgs/pregAdicional03.jpg, id=125, 431.6125pt x 262.9825pt>
 File: imgs/../imgs/pregAdicional03.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/pregAdicional03.jpg>
-Package pdftex.def Info: imgs/../imgs/pregAdicional03.jpg used on input line 49
-1.
-(pdftex.def)             Requested size: 250.0pt x 152.32529pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
-l.494 \end{figure}
+l.484 \end{figure}
                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2532,7 +2526,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[27 <./imgs/../imgs/pregAdicional02.jpg>]
+[27 <./imgs/../imgs/pregAdicional02.jpg (PNG copy)>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2540,19 +2534,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.496 \newline
+l.486 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 498.
+LaTeX Warning: Command \' invalid in math mode on input line 488.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.498 ...ervemos qué sucede con nuestro nodo $má
+l.488 ...ervemos qué sucede con nuestro nodo $má
                                                   ster$. El nodo máster que...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2560,7 +2554,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.498 ...ervemos qué sucede con nuestro nodo $má
+l.488 ...ervemos qué sucede con nuestro nodo $má
                                                   ster$. El nodo máster que...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2570,7 +2564,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.498 ...ervemos qué sucede con nuestro nodo $má
+l.488 ...ervemos qué sucede con nuestro nodo $má
                                                   ster$. El nodo máster que...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2580,12 +2574,12 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 503.
+LaTeX Warning: Command \' invalid in math mode on input line 493.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.503 ...ier grafo en el cual la solución del $í
+l.493 ...uier grafo en el que la solución del $í
                                                   tem\ a$ (aplicar el algori...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2593,7 +2587,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.503 ...ier grafo en el cual la solución del $í
+l.493 ...uier grafo en el que la solución del $í
                                                   tem\ a$ (aplicar el algori...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2601,12 +2595,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 503.
+LaTeX Warning: Command \i invalid in math mode on input line 493.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.503 ...ier grafo en el cual la solución del $í
+l.493 ...uier grafo en el que la solución del $í
                                                   tem\ a$ (aplicar el algori...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2616,7 +2610,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.503 ...ier grafo en el cual la solución del $í
+l.493 ...uier grafo en el que la solución del $í
                                                   tem\ a$ (aplicar el algori...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2626,7 +2620,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.503 ...fo en el cual la solución del $ítem\ a$
+l.493 ...afo en el que la solución del $ítem\ a$
                                                    (aplicar el algoritmo de ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2637,12 +2631,12 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 503.
+LaTeX Warning: Command \' invalid in math mode on input line 493.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.503 ...oluciones van a ser optimás para el  $í
+l.493 ...odas las soluciones óptimás para el $í
                                                   tem\ a$ y para cada una de...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2650,7 +2644,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.503 ...oluciones van a ser optimás para el  $í
+l.493 ...odas las soluciones óptimás para el $í
                                                   tem\ a$ y para cada una de...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2658,12 +2652,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 503.
+LaTeX Warning: Command \i invalid in math mode on input line 493.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.503 ...oluciones van a ser optimás para el  $í
+l.493 ...odas las soluciones óptimás para el $í
                                                   tem\ a$ y para cada una de...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2673,7 +2667,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.503 ...oluciones van a ser optimás para el  $í
+l.493 ...odas las soluciones óptimás para el $í
                                                   tem\ a$ y para cada una de...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2683,7 +2677,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.503 ...es van a ser optimás para el  $ítem\ a$
+l.493 ...s soluciones óptimás para el $ítem\ a$
                                                    y para cada una de estas,...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2694,12 +2688,12 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 503.
+LaTeX Warning: Command \' invalid in math mode on input line 493.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.503 ...encontrar la solución optima para el $í
+l.493 ...encontrar la solución optima para el $í
                                                   tem\ b$. Al hacer esto, va...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2707,7 +2701,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.503 ...encontrar la solución optima para el $í
+l.493 ...encontrar la solución optima para el $í
                                                   tem\ b$. Al hacer esto, va...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2715,12 +2709,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 503.
+LaTeX Warning: Command \i invalid in math mode on input line 493.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.503 ...encontrar la solución optima para el $í
+l.493 ...encontrar la solución optima para el $í
                                                   tem\ b$. Al hacer esto, va...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2730,7 +2724,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.503 ...encontrar la solución optima para el $í
+l.493 ...encontrar la solución optima para el $í
                                                   tem\ b$. Al hacer esto, va...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2740,7 +2734,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.503 ...ar la solución optima para el $ítem\ b$
+l.493 ...ar la solución optima para el $ítem\ b$
                                                   . Al hacer esto, vamos a e...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2751,12 +2745,12 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 503.
+LaTeX Warning: Command \' invalid in math mode on input line 493.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.503 ...junto de las soluciones posibles del  $í
+l.493 ...junto de las soluciones posibles del  $í
                                                   tem\ a$ que van a tener un...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2764,7 +2758,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.503 ...junto de las soluciones posibles del  $í
+l.493 ...junto de las soluciones posibles del  $í
                                                   tem\ a$ que van a tener un...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2772,12 +2766,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 503.
+LaTeX Warning: Command \i invalid in math mode on input line 493.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.503 ...junto de las soluciones posibles del  $í
+l.493 ...junto de las soluciones posibles del  $í
                                                   tem\ a$ que van a tener un...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2787,7 +2781,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.503 ...junto de las soluciones posibles del  $í
+l.493 ...junto de las soluciones posibles del  $í
                                                   tem\ a$ que van a tener un...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2797,7 +2791,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.503 ...e las soluciones posibles del  $ítem\ a$
+l.493 ...e las soluciones posibles del  $ítem\ a$
                                                    que van a tener un menor ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2808,27 +2802,27 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--507
+Underfull \hbox (badness 10000) in paragraph at lines 487--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--507
+Underfull \hbox (badness 10000) in paragraph at lines 487--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--507
+Underfull \hbox (badness 10000) in paragraph at lines 487--497
 
  []
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 508.
+LaTeX Warning: Command \' invalid in math mode on input line 498.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.508 ...ra todas las soluciones posibles del  $í
+l.498 ...ra todas las soluciones posibles del  $í
                                                   tem\ a$, calcular el $íte...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2836,7 +2830,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.508 ...ra todas las soluciones posibles del  $í
+l.498 ...ra todas las soluciones posibles del  $í
                                                   tem\ a$, calcular el $íte...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2844,12 +2838,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 508.
+LaTeX Warning: Command \i invalid in math mode on input line 498.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.508 ...ra todas las soluciones posibles del  $í
+l.498 ...ra todas las soluciones posibles del  $í
                                                   tem\ a$, calcular el $íte...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2859,7 +2853,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.508 ...ra todas las soluciones posibles del  $í
+l.498 ...ra todas las soluciones posibles del  $í
                                                   tem\ a$, calcular el $íte...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2869,7 +2863,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.508 ...s las soluciones posibles del  $ítem\ a$
+l.498 ...s las soluciones posibles del  $ítem\ a$
                                                   , calcular el $ítem\ b$ y...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2880,12 +2874,12 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 508.
+LaTeX Warning: Command \' invalid in math mode on input line 498.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.508 ...posibles del  $ítem\ a$, calcular el $í
+l.498 ...posibles del  $ítem\ a$, calcular el $í
                                                   tem\ b$ y me quedo con la ...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2893,7 +2887,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.508 ...posibles del  $ítem\ a$, calcular el $í
+l.498 ...posibles del  $ítem\ a$, calcular el $í
                                                   tem\ b$ y me quedo con la ...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2901,12 +2895,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 508.
+LaTeX Warning: Command \i invalid in math mode on input line 498.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.508 ...posibles del  $ítem\ a$, calcular el $í
+l.498 ...posibles del  $ítem\ a$, calcular el $í
                                                   tem\ b$ y me quedo con la ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2916,7 +2910,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.508 ...posibles del  $ítem\ a$, calcular el $í
+l.498 ...posibles del  $ítem\ a$, calcular el $í
                                                   tem\ b$ y me quedo con la ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2926,7 +2920,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.508 ...s del  $ítem\ a$, calcular el $ítem\ b$
+l.498 ...s del  $ítem\ a$, calcular el $ítem\ b$
                                                    y me quedo con la que me ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2937,12 +2931,12 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \' invalid in math mode on input line 509.
+LaTeX Warning: Command \' invalid in math mode on input line 499.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.509 \item Modificar el  $í
+l.499 \item Modificar el  $í
                              tem\ a$ para que ordene primero por peso de la ...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2950,7 +2944,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! Missing { inserted.
 <to be read again> 
                    \begingroup 
-l.509 \item Modificar el  $í
+l.499 \item Modificar el  $í
                              tem\ a$ para que ordene primero por peso de la ...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2958,12 +2952,12 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 509.
+LaTeX Warning: Command \i invalid in math mode on input line 499.
 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.509 \item Modificar el  $í
+l.499 \item Modificar el  $í
                              tem\ a$ para que ordene primero por peso de la ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2973,7 +2967,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! You can't use `\spacefactor' in math mode.
 <argument> ...cefactor \spacefactor }\spacefactor 
                                                   \accent@spacefactor 
-l.509 \item Modificar el  $í
+l.499 \item Modificar el  $í
                              tem\ a$ para que ordene primero por peso de la ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2983,7 +2977,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.509 \item Modificar el  $ítem\ a$
+l.499 \item Modificar el  $ítem\ a$
                                      para que ordene primero por peso de la ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2994,24 +2988,24 @@ my insertion and my current dilemma will both disappear.
 Missing character: There is no � in font cmex10!
 Missing character: There is no � in font cmex10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.527 	\ \ \textbf{Mientras}(n \in
+l.517 	\ \ \textbf{Mientras}(n \in
                                    Nodos(G)) \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3023,7 +3017,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.527 	\ \ \textbf{Mientras}(n \in Nodos(G)) \\
+l.517 	\ \ \textbf{Mientras}(n \in Nodos(G)) \\
                                                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3032,18 +3026,18 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.527 	\ \ \textbf{Mientras}(n \in Nodos(G)) \\
+l.517 	\ \ \textbf{Mientras}(n \in Nodos(G)) \\
                                                
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[28 <./imgs/../imgs/pregAdicional03.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+[28 <./imgs/../imgs/pregAdicional03.jpg (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 538--87
+Underfull \hbox (badness 10000) in paragraph at lines 528--87
 
  []
 
@@ -3095,28 +3089,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--32
 
  []
 
-[30] <imgs/../imgs/ejemplo1ej3ent.jpg, id=136, 694.595pt x 280.04625pt>
+[30] <imgs/../imgs/ejemplo1ej3ent.jpg, id=138, 694.595pt x 280.04625pt>
 File: imgs/../imgs/ejemplo1ej3ent.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo1ej3ent.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo1ej3ent.jpg used on input line 45.
-
-(pdftex.def)             Requested size: 350.0pt x 141.1167pt.
-
-<imgs/../imgs/leyendaej3.jpg, id=137, 136.51pt x 77.28876pt>
+<imgs/../imgs/leyendaej3.jpg, id=139, 136.51pt x 77.28876pt>
 File: imgs/../imgs/leyendaej3.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/leyendaej3.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendaej3.jpg used on input line 49.
-(pdftex.def)             Requested size: 90.0pt x 50.95648pt.
-
-<imgs/../imgs/leyendaformas.jpg, id=138, 185.69376pt x 158.5925pt>
+<imgs/../imgs/leyendaformas.jpg, id=140, 185.69376pt x 158.5925pt>
 File: imgs/../imgs/leyendaformas.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/leyendaformas.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendaformas.jpg used on input line 53.
-(pdftex.def)             Requested size: 60.0pt x 51.24187pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3128,14 +3112,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../imgs/ejemplo1ej3sal.jpg, id=139, 695.59875pt x 286.06876pt>
+<imgs/../imgs/ejemplo1ej3sal.jpg, id=141, 695.59875pt x 286.06876pt>
 File: imgs/../imgs/ejemplo1ej3sal.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo1ej3sal.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo1ej3sal.jpg used on input line 62.
-
-(pdftex.def)             Requested size: 350.0pt x 143.93759pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3157,28 +3137,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--71
 
  []
 
-[31 <./imgs/../imgs/ejemplo1ej3ent.jpg> <./imgs/../imgs/leyendaej3.jpg> <./imgs
-/../imgs/leyendaformas.jpg> <./imgs/../imgs/ejemplo1ej3sal.jpg>]
-<imgs/../imgs/ejemplo2ej3ent.jpg, id=144, 445.665pt x 693.59125pt>
+[31 <./imgs/../imgs/ejemplo1ej3ent.jpg (PNG copy)> <./imgs/../imgs/leyendaej3.j
+pg (PNG copy)> <./imgs/../imgs/leyendaformas.jpg (PNG copy)> <./imgs/../imgs/ej
+emplo1ej3sal.jpg (PNG copy)>]
+<imgs/../imgs/ejemplo2ej3ent.jpg, id=146, 445.665pt x 693.59125pt>
 File: imgs/../imgs/ejemplo2ej3ent.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo2ej3ent.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo2ej3ent.jpg used on input line 84.
-
-(pdftex.def)             Requested size: 140.0pt x 217.87915pt.
-
-<imgs/../imgs/leyendaej3ejmp2.jpg, id=145, 205.76875pt x 126.4725pt>
+<imgs/../imgs/leyendaej3ejmp2.jpg, id=147, 205.76875pt x 126.4725pt>
 File: imgs/../imgs/leyendaej3ejmp2.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/leyendaej3ejmp2.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendaej3ejmp2.jpg used on input line 88
-.
-(pdftex.def)             Requested size: 70.0pt x 43.02322pt.
 File: imgs/../imgs/leyendaformas.jpg Graphic file (type jpg)
  <use imgs/../imgs/leyendaformas.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendaformas.jpg used on input line 92.
-(pdftex.def)             Requested size: 60.0pt x 51.24187pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3190,14 +3161,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../imgs/ejemplo2ej3sal.jpg, id=146, 300.12125pt x 471.7625pt>
+<imgs/../imgs/ejemplo2ej3sal.jpg, id=148, 300.12125pt x 471.7625pt>
 File: imgs/../imgs/ejemplo2ej3sal.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/ejemplo2ej3sal.jpg>
-Package pdftex.def Info: imgs/../imgs/ejemplo2ej3sal.jpg used on input line 101
-.
-(pdftex.def)             Requested size: 140.0pt x 220.07274pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3209,7 +3176,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[32 <./imgs/../imgs/ejemplo2ej3ent.jpg> <./imgs/../imgs/leyendaej3ejmp2.jpg>]
+[32 <./imgs/../imgs/ejemplo2ej3ent.jpg (PNG copy)> <./imgs/../imgs/leyendaej3ej
+mp2.jpg (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
@@ -3234,7 +3202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[33 <./imgs/../imgs/ejemplo2ej3sal.jpg>]
+[33 <./imgs/../imgs/ejemplo2ej3sal.jpg (PNG copy)>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -3266,20 +3234,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-<imgs/../imgs/demo3-1.jpg, id=153, 527.9725pt x 96.36pt>
+<imgs/../imgs/demo3-1.jpg, id=155, 527.9725pt x 96.36pt>
 File: imgs/../imgs/demo3-1.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/demo3-1.jpg>
-Package pdftex.def Info: imgs/../imgs/demo3-1.jpg used on input line 165.
-(pdftex.def)             Requested size: 230.0pt x 41.97653pt.
-
-<imgs/../imgs/leyendademo3.jpg, id=154, 242.9075pt x 146.5475pt>
+<imgs/../imgs/leyendademo3.jpg, id=156, 242.9075pt x 146.5475pt>
 File: imgs/../imgs/leyendademo3.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/leyendademo3.jpg>
-Package pdftex.def Info: imgs/../imgs/leyendademo3.jpg used on input line 172.
-(pdftex.def)             Requested size: 90.0pt x 54.2955pt.
-
 Underfull \hbox (badness 10000) in paragraph at lines 162--174
 
  []
@@ -3315,14 +3277,11 @@ l.175 \end{itemize}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-[34 <./imgs/../imgs/demo3-1.jpg> <./imgs/../imgs/leyendademo3.jpg>]
-<imgs/../imgs/demo3-2.jpg, id=159, 529.98pt x 212.795pt>
+[34 <./imgs/../imgs/demo3-1.jpg (PNG copy)> <./imgs/../imgs/leyendademo3.jpg (P
+NG copy)>] <imgs/../imgs/demo3-2.jpg, id=161, 529.98pt x 212.795pt>
 File: imgs/../imgs/demo3-2.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/demo3-2.jpg>
-Package pdftex.def Info: imgs/../imgs/demo3-2.jpg used on input line 185.
-(pdftex.def)             Requested size: 230.0pt x 92.34752pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3352,13 +3311,10 @@ Underfull \hbox (badness 10000) detected at line 192
 [][]
  []
 
-<imgs/../imgs/demo3-3.jpg, id=160, 524.96124pt x 211.79124pt>
+<imgs/../imgs/demo3-3.jpg, id=162, 524.96124pt x 211.79124pt>
 File: imgs/../imgs/demo3-3.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/demo3-3.jpg>
-Package pdftex.def Info: imgs/../imgs/demo3-3.jpg used on input line 196.
-(pdftex.def)             Requested size: 230.0pt x 92.79094pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3408,13 +3364,10 @@ Underfull \hbox (badness 10000) detected at line 202
 [][]
  []
 
-<imgs/../imgs/demo3-4.jpg, id=161, 522.95375pt x 80.3pt>
+<imgs/../imgs/demo3-4.jpg, id=163, 522.95375pt x 80.3pt>
 File: imgs/../imgs/demo3-4.jpg Graphic file (type jpg)
 
 <use imgs/../imgs/demo3-4.jpg>
-Package pdftex.def Info: imgs/../imgs/demo3-4.jpg used on input line 206.
-(pdftex.def)             Requested size: 230.0pt x 35.3174pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3466,8 +3419,8 @@ l.214 \end{itemize}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-[35 <./imgs/../imgs/demo3-2.jpg> <./imgs/../imgs/demo3-3.jpg> <./imgs/../imgs/d
-emo3-4.jpg>]
+[35 <./imgs/../imgs/demo3-2.jpg (PNG copy)> <./imgs/../imgs/demo3-3.jpg (PNG co
+py)> <./imgs/../imgs/demo3-4.jpg (PNG copy)>]
 Overfull \hbox (12.46043pt too wide) in paragraph at lines 224--225
 []\OT1/cmr/m/n/10 Posteriormente, se pro-si-gue apli-can-do el al-go-rit-mo de 
 $\OML/cmm/m/it/10 Kruskal$ \OT1/cmr/m/n/10 cu-yo cos-to tem-po-ral es $\OMS/cms
@@ -3476,14 +3429,10 @@ t/10 n\OT1/cmr/m/n/10 ))$[]
  []
 
 [36] [37] [38]
-<imgs/../tests/ej3/EJ3-nodo-var-denso.png, id=175, 814.04124pt x 604.2575pt>
+<imgs/../tests/ej3/EJ3-nodo-var-denso.png, id=177, 814.04124pt x 604.2575pt>
 File: imgs/../tests/ej3/EJ3-nodo-var-denso.png Graphic file (type png)
 
 <use imgs/../tests/ej3/EJ3-nodo-var-denso.png>
-Package pdftex.def Info: imgs/../tests/ej3/EJ3-nodo-var-denso.png used on input
- line 283.
-(pdftex.def)             Requested size: 400.0pt x 296.91858pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3496,14 +3445,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [39 <./imgs/../tests/ej3/EJ3-nodo-var-denso.png (PNG copy)>]
-<imgs/../tests/ej3/EJ3-nodo-var-liviano.png, id=179, 748.7975pt x 570.13pt>
+<imgs/../tests/ej3/EJ3-nodo-var-liviano.png, id=181, 748.7975pt x 570.13pt>
 File: imgs/../tests/ej3/EJ3-nodo-var-liviano.png Graphic file (type png)
 
 <use imgs/../tests/ej3/EJ3-nodo-var-liviano.png>
-Package pdftex.def Info: imgs/../tests/ej3/EJ3-nodo-var-liviano.png used on inp
-ut line 299.
-(pdftex.def)             Requested size: 400.0pt x 304.55981pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3516,14 +3461,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [40 <./imgs/../tests/ej3/EJ3-nodo-var-liviano.png (PNG copy)>]
-<imgs/../tests/ej3/EJ3-r-var-denso.png, id=183, 790.955pt x 618.31pt>
+<imgs/../tests/ej3/EJ3-r-var-denso.png, id=185, 790.955pt x 618.31pt>
 File: imgs/../tests/ej3/EJ3-r-var-denso.png Graphic file (type png)
 
 <use imgs/../tests/ej3/EJ3-r-var-denso.png>
-Package pdftex.def Info: imgs/../tests/ej3/EJ3-r-var-denso.png used on input li
-ne 316.
-(pdftex.def)             Requested size: 400.0pt x 312.69223pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3536,14 +3477,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [41 <./imgs/../tests/ej3/EJ3-r-var-denso.png (PNG copy)>]
-<imgs/../tests/ej3/EJ3-r-var-liviano.png, id=187, 776.9025pt x 621.32124pt>
+<imgs/../tests/ej3/EJ3-r-var-liviano.png, id=189, 776.9025pt x 621.32124pt>
 File: imgs/../tests/ej3/EJ3-r-var-liviano.png Graphic file (type png)
 
 <use imgs/../tests/ej3/EJ3-r-var-liviano.png>
-Package pdftex.def Info: imgs/../tests/ej3/EJ3-r-var-liviano.png used on input 
-line 332.
-(pdftex.def)             Requested size: 400.0pt x 319.90343pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3556,14 +3493,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [42 <./imgs/../tests/ej3/EJ3-r-var-liviano.png (PNG copy)>]
-<imgs/../tests/ej3/EJ3-f-var-denso.png, id=191, 842.14626pt x 601.24625pt>
+<imgs/../tests/ej3/EJ3-f-var-denso.png, id=193, 842.14626pt x 601.24625pt>
 File: imgs/../tests/ej3/EJ3-f-var-denso.png Graphic file (type png)
 
 <use imgs/../tests/ej3/EJ3-f-var-denso.png>
-Package pdftex.def Info: imgs/../tests/ej3/EJ3-f-var-denso.png used on input li
-ne 348.
-(pdftex.def)             Requested size: 370.0pt x 264.16383pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3575,14 +3508,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<imgs/../tests/ej3/EJ3-f-var-liviano.png, id=192, 769.87625pt x 591.20876pt>
+<imgs/../tests/ej3/EJ3-f-var-liviano.png, id=194, 769.87625pt x 591.20876pt>
 File: imgs/../tests/ej3/EJ3-f-var-liviano.png Graphic file (type png)
 
 <use imgs/../tests/ej3/EJ3-f-var-liviano.png>
-Package pdftex.def Info: imgs/../tests/ej3/EJ3-f-var-liviano.png used on input 
-line 353.
-(pdftex.def)             Requested size: 370.0pt x 284.13782pt.
-
 ! Extra }, or forgotten \endgroup.
 \endfigure ...rrbox \fi \vskip \intextsep \egroup 
                                                   
@@ -3630,41 +3559,35 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-AED: lastpage setting LastPage [45] [46] (./informe.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-) ) 
+AED: lastpage setting LastPage [45] [46] (./informe.aux) ) 
 Here is how much of TeX's memory you used:
- 8178 strings out of 493311
- 117738 string characters out of 6137856
- 222060 words of memory out of 5000000
- 11388 multiletter control sequences out of 15000+600000
- 14982 words of font info for 62 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 38i,18n,72p,1249b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
-b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on informe.pdf (46 pages, 1401380 bytes).
+ 13276 strings out of 494999
+ 221048 string characters out of 1180816
+ 298692 words of memory out of 3000000
+ 16098 multiletter control sequences out of 15000+50000
+ 14982 words of font info for 62 fonts, out of 3000000 for 9000
+ 54 hyphenation exceptions out of 8191
+ 66i,18n,72p,1249b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmbx7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on informe.pdf (46 pages, 1709848 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
