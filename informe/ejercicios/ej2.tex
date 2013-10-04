@@ -192,14 +192,14 @@ Al ejecutar este proceso $m$ veces, en $G'$ se obtiene una única componente con
 
  Luego, se ingresa en el ciclo principal que recorre todas las aristas del grafo en $\mathcal{O}(m)$ = $\mathcal{O}(n^{2})$. En él, se calculan las funciones $PrimerVertice$ y $SegundoVertice$ con una complejidad de $\mathcal{O}(1)$ ya que dicha información se encuentra alojada en la estructura. Posteriormente, se calcula $find$ a cada uno de los nodos cuya complejidad es O($ACK(n)$) amortizado, donde $ACK$ corresponde a la función de Ackermann acotada por $\mathcal{O}(1)$ amortizado\footnote{TARJAN, ROBERT ENDRE (1975). "Efficiency of a Good But Not Linear Set Union Algorithm". Journal of the ACM 22}.\newline
 
- Luego, se controla si los nodos pertenecen o no a la misma componente conexa. En caso de que no pertenezcan, se aplican las funciones $union$ y $Marcar$. La función $union$, al igual que $find$, está acotada por la función de Ackermann, o sea que por $\mathcal{O}(1)$ amortizado. Por otro lado, $Marcar$ indica que la arista que se le pasa por párametro debe ser insertada posteriormente en un grafo. Esta acción se realiza en $\mathcal{O}(1)$ ya que se utiliza un arreglo al cual se accede en forma directa.\newline
+ Luego, se controla si los nodos pertenecen o no a la misma componente conexa. En caso de que no pertenezcan, se aplican las funciones $union$ y $Marcar$. La función $union$, al igual que $find$, está acotada por la función de Ackermann, o sea que por $\mathcal{O}(1)$ amortizado. Por otro lado, $Marcar$ indica que la arista que se le pasa por párametro debe ser insertada posteriormente en un grafo. Esta acción se realiza en $\mathcal{O}(1)$ ya que se utiliza un arreglo al cual se accede de forma directa.\newline
  
  Por lo tanto, podemos concluir que las ejecuciones dentro del ciclo tienen una complejidad temporal de $\mathcal{O}(1)$. Luego, la complejidad del ciclo es de $\mathcal{O}(n^{2})$. \newline
 
- Por último, se recorren todas las aristas para ver si fueron marcadas o no. Si lo fueron, se las inserta en un grafo. Este grafo esta implementado sobre un vector al cual se le redefine su tamaño mediante la funcion $resize$\footnote{http://www.cplusplus.com/reference/vector/vector/resize/} con una complejidad de $\mathcal{O}(n-1)$. Dicha inserción se realiza mediante la función $Insertar$ la cual agrega la arista en $\mathcal{O}(1)$. Por lo tanto, el costo de este ciclo es $\mathcal{O}(n-1)$
+ Por último, se recorren todas las aristas para ver si fueron marcadas o no. Si lo fueron, se las inserta en un grafo. Este grafo esta implementado sobre un vector al cual se le redefine su tamaño mediante la funcion $resize$\footnote{http://www.cplusplus.com/reference/vector/vector/resize/} con una complejidad de $\mathcal{O}(n-1)$. Dicha inserción se realiza mediante la función $Insertar$ que agrega la arista en $\mathcal{O}(1)$. Por lo tanto, el costo de este ciclo es $\mathcal{O}(n-1)$.
 \newline
 \newline
- Finalmente, al sumar las complejidades de $ordenarDeMenorAMayorPorPeso$ con la del ciclo principal, obtenemos que la complejidad temporal del Algoritmo de $Kruskal$ está dada por $\mathcal{O}(n^{2}\ log\ n^{2})$ + $\mathcal{O}(n^{2})$, siendo estrictamente menor que $\mathcal{O}(n^{3})$.
+ Finalmente, al sumar las complejidades de $ordenarDeMenorAMayorPorPeso$ con la del ciclo principal, obtenemos que la complejidad temporal del Algoritmo de $Kruskal$ está dada por $\mathcal{O}(n^{2}\ log\ n^{2})$ + $\mathcal{O}(n^{2})$, siendo estrictamente menor que $\mathcal{O}(n^{3})$.\newline
  
  \item Cálculo del costo de la red
 
@@ -289,8 +289,8 @@ Sea $v_{1}$ el nodo inicial y $v_{2}$ el nodo final del algoritmo $BFS$. Si $v_{
 A partir del gráfico anterior, supongamos que el camino rojo representa al máximo que resulta del algoritmo $BFS$ luego de haberlo aplicado sobre el nodo 2. \newline
 Por otro lado, supongamos que dicho algoritmo retorna al nodo 3 como el más lejano del 2. Como el nodo 3 se encuentra más lejos del 2 que el 1, $b \geq a$. 
 \begin{itemize}
-\item $a$ = $b$: \newline En este caso, ambos caminos hubieran sido correctos ya que dist(4,1) sería igual a dist(4,3). 
-\item $a<b$: \newline Si este caso sucediera, $b$ debería formar parte del camino máximo del árbol. Esto se debe a que el camino más largo del árbol debe estar conformado por los caminos $c$-$d$ y el máximo entre $a$ y $b$. Por lo tanto, si $b>a$, el camino azul no sería el máximo. Luego, es absurdo suponer que el extremo del camino máximo retornado por $BFS$ no pertencía al camino máximo del árbol.\newline
+\item $a$ = $b$: En este caso, ambos caminos hubieran sido correctos ya que dist(4,1) sería igual a dist(4,3). 
+\item $a<b$: Si este caso sucediera, $b$ debería formar parte del camino máximo del árbol. Esto se debe a que el camino más largo del árbol debe estar conformado por los caminos $c$-$d$ y el máximo entre $a$ y $b$. Por lo tanto, si $b>a$, el camino azul no sería el máximo. Luego, es absurdo suponer que el extremo del camino máximo retornado por $BFS$ no pertencía al camino máximo del árbol.\newline
 \end{itemize}
 \item Tanto el nodo inicial como el final no pertenecen al camino máximo del árbol. \newline \newline
 Sea el camino $azul$ el máximo del árbol cuyos extremos son los nodos 1 y 4. Supongamos que el camino $rojo$ representa al camino devuelto por $BFS$ al aplicarlo sobre el nodo 2. En este caso, tenemos dos opciones posibles: El camino $azul$ comparte un tramo con el camino $rojo$ o no comparte ninguno. Veamos cada una de ellas por separado. \newline
@@ -310,8 +310,8 @@ Sea el camino $azul$ el máximo del árbol cuyos extremos son los nodos 1 y 4. S
 \end{figure}
 Supongamos que el algoritmo $BFS$ devuelve el nodo 3 como el más alejado al 2. Entonces, podemos deducir que:
 \begin {itemize}
-\item $c$ = $d$: \newline Ambas soluciones son correctas.
-\item $c > d$: \newline Si este caso ocurriera, $c$ debería formar parte del camino máximo del árbol. Luego, el camino azul no sería el máximo. Por lo tanto, resulta absurdo suponer que el extremo del camino máximo otorgado por $BFS$ no pertencía al camino máximo del árbol. \newline
+\item $c$ = $d$: Ambas soluciones son correctas.
+\item $c > d$: Si este caso ocurriera, $c$ debería formar parte del camino máximo del árbol. Luego, el camino azul no sería el máximo. Por lo tanto, resulta absurdo suponer que el extremo del camino máximo otorgado por $BFS$ no pertencía al camino máximo del árbol. \newline
 \end{itemize}
 \item El camino azul no comparte nigún tramo con el rojo.
 \begin{figure}[H] %[h] Aqui [b] para button [t] para top
@@ -331,10 +331,10 @@ Supongamos que el algoritmo $BFS$ devuelve el nodo 3 como el más alejado al 2. 
 
 Supongamos que el algoritmo $BFS$ nos devuelve el nodo 3 como el más alejado del 2. Entonces, podemos deducir que:
 \begin {itemize}
-\item $a$ U $c$ = $e$: \newline Ambas soluciones son correctas.
-\item $b$ U $c$ = $e$: \newline Ambas soluciones son correctas.
-\item $a$ U $c<e$: \newline Si este caso sucediera, $e$ U $c$ debería formar parte del camino máximo del árbol. Pero entonces el camino azul no sería el máximo, lo que resulta absurdo.
-\item $b$ U $c<e$: \newline En este caso, $e$ U $c$ debería formar parte del camino máximo del árbol. Luego, resulta absurdo.
+\item $(a \cup c)$ = $e$: Ambas soluciones son correctas.
+\item $(b \cup c)$ = $e$: Ambas soluciones son correctas.
+\item $(a \cup c) < e$: Si este caso sucediera, $e \cup c$ debería formar parte del camino máximo del árbol. Pero entonces el camino azul no sería el máximo, lo que resulta absurdo.
+\item $(b \cup c) < e$: En este caso, $e \cup c$ debería formar parte del camino máximo del árbol. Luego, resulta absurdo.
 \newline
 \end{itemize}
 \end{itemize}
@@ -425,7 +425,7 @@ Las funciones de complejidad con las que se compararon nuestros gráficos de tie
 Dado que se nos fue pedido experimentar unicamente con el subproblema 2 de este ejercicio, los unicos valores que pudimos considerar fueron la cantidad de nodos, ya que el algoritmo unicamente toma como valor de entrada grafos que sean arboles, con lo cual la cantidad de aristas esta definida por la cantidad de nodos que este arbol tenga. Los pesos de las aritas son numeros al azar entre $1$ y $150$.
 
 \begin{figure}[H]
-	\includegraphics[width=400pt]{../tests/ej2/EJ2-nodo-var.png}
+	\includegraphics[width=350pt]{../tests/ej2/EJ2-nodo-var.png}
 %\end{center}
 \end{figure}
 
