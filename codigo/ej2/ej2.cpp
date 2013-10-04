@@ -54,14 +54,12 @@ pair<int,int> bfs (int nodo_inicial, int cantNodos, vector<vector<int> >& listaD
 	int medio = (distancias[cabeza-1])/2;
 	for (int i = 0; i < cantNodos; i++){
 		medio--;
-		if (medio == 0)	{
-			res.second = nodo;
+		if (medio <= 0)
 			break;
-		}
 		nodo = padre[nodo-1];
 	}
 	
-	
+	res.second = nodo;
 	return res; //devuelvo el ultimo elemento que desencole y el del medio
 }
 	
@@ -97,7 +95,7 @@ int main() {
 		vector<Arista> res;
 		vector<vector<int> > listaDeAdyacencia;
 		costo = 0;
-		nodoMaster = 0;
+		nodoMaster = 1;
 		//cargo datos
 		cin >> cant_nodos;
 		cin >> cant_aristas;
