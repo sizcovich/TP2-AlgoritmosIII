@@ -438,7 +438,7 @@ Para las pruebas de complejidad empírica, generamos instancias aleatorias de co
 
 Las funciones de complejidad con las que se compararon nuestros gráficos de tiempo fueron ajustadas por algoritmos matemáticos (proporcionados por \textbf{sci davis}). Dichos algoritmos se encargaron de multiplicarle y sumarle constantes a las funciones con el fin de que éstas se ajustaran a nuestros resultados sin modificar el comportamiento de las funciones utilizadas para comparar.
 
-En este caso, el único valor que puede ser considerado para las ejecuciones es la cantidad de nodos dado que el algoritmo toma, como parámetros de entrada, grafos de tipo árbol. Luego, la cantidad de aristas está definida de acuerdo a la cantidad de nodos del árbol. Es por ello que la variación de otro tipo de parámetro no resultaría relevante para experimentar. Por lo tantoejecutamos el algoritmo con números aleatorios entre $1$ y $150$ correspondientes a los pesos de las aristas.
+En este caso, el único valor que puede ser considerado para las ejecuciones es la cantidad de nodos dado que el algoritmo toma, como parámetros de entrada, grafos de tipo árbol. Luego, la cantidad de aristas está definida de acuerdo a la cantidad de nodos del árbol. Es por ello que la variación de otro tipo de parámetro no resultaría relevante para experimentar. Por lo tanto, ejecutamos el algoritmo con números aleatorios entre $1$ y $150$ correspondientes a los pesos de las aristas.
 
 \begin{figure}[H]
 \begin{center}
@@ -539,9 +539,9 @@ Dos posibles soluciones a esto serian:
 
  Por otro lado, veamos de qué modo puede modificarse la solución si en lugar de transmitir por $broadcast$ se lo hace por $multicast$, enviando un paquete a cada destino sin hacer copias. \newline
 
- La principal diferencia entre uno y otro radica en que el primero ($broadcast$) con mandar una vez la informacion le alcanza, ya que cada servidor se guarda y enviá una copia, mientras que el segundo lo que hace es enviar una copia a cada nodo, por lo que realizar un envío de un nodo $a$ a un nodo $b$ cuesta la sumatoria del costo de cada arista del camino. \newline
+ La principal diferencia entre uno y otro radica en que, al primero ($broadcast$), le alcanza con mandar la información una única vez. Esto se debe a que cada servidor se guarda y envía una copia de la misma, mientras que el segundo envía una copia a un nodo por vez, aumentando el costo de envío de un nodo $a$ a uno nodo $b$ a la sumatoria del costo de cada arista del camino. \newline
 
- Dicho lo anterior, una posible solución priorizando el costo de envió de datos es: \newline
+ Luego, una posible solución priorizando el costo de envío de datos es: \newline
 
 \begin{algorithm}[H]
 	\SetAlgoLined
@@ -560,6 +560,6 @@ Dos posibles soluciones a esto serian:
 		\ \ \textbf{return} Gmin 
 \end{algorithm}
 
-Donde $pesoTotal$ calcula la sumatoria del peso de todas las aristas y  $Dijktra$\footnote{Cormen, Thomas H., Charles E. Leiserson, and Ronald L. Rivest. p.658} calcula los caminos mínimos de un nodo hasta todos los demás. De esta manera nos vamos quedando con aquella solución que la sumatoria de todas las aristas posea menor peso. \newline
+Donde $pesoTotal$ calcula la sumatoria del peso de todas las aristas y $Dijktra$\footnote{Cormen, Thomas H., Charles E. Leiserson, and Ronald L. Rivest. p.658} calcula los caminos mínimos de un nodo hacia todos los demás. De esta manera, nos vamos quedando con aquella solución cuya sumatoria de las aristas posee el menor peso. \newline
 
-Esta solución tiene una complejidad de $\mathcal{O}(n^{3})$ siendo n la cantidad de servidores (nodos), ya que por cada vértice aplica dicho algoritmo.\newline
+Esta solución tiene una complejidad de $\mathcal{O}(n^{3})$, siendo $n$ la cantidad de servidores (nodos) ya que el algoritmo se aplica a cada vértice.\newline
