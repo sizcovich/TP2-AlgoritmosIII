@@ -240,35 +240,59 @@ $$1\ \ 2\ \ 10$$
 
 
 \item Por otra parte, probamos ingresando dos clientes y una fábrica interconectados entre sí. El objetivo de esta instancia es ver que nuestro algoritmo elige, efectivamente, el camino más corto sin importar de qué modo une a los clientes con la fábrica ya que ésto resulta indistinto siempre que la componente conexa la contenga. \newline
+\begin{figure}[H] %[h] Aqui [b] para button [t] para top
+\begin{center}
+\includegraphics[width=140pt]{../imgs/caso1-ej3.png}
+\end{center}
+  \hfill
+  \fbox{\begin{minipage}[H]{90pt}
+    \includegraphics[width=90pt]{../imgs/leyendaformasinstancias.png}
+  \end{minipage}}
+\caption{Ejemplo de caso con 3 nodos}
+\end{figure}
 \textbf{Parámetro de entrada:} $$1\ \  2\ \  3$$
 $$1\ \  2\ \  10$$
-$$1\ \  3\ \  40$$
+$$1\ \  3\ \  100$$
 $$2\ \  3\ \  20$$																											
 \textbf{Parámetro de salida:} $$30\ \ 2\ \ 1\ \ 2\ \ 2\ \ 3$$
 
 
 \item También, quisimos visualizar qué ocurría cuando la entrada tenía varias soluciones posibles. De este modo, logramos ver cuál de las soluciones óptimas elegía nuestro algoritmo.\newline
-\textbf{Parámetro de entrada:} $$3\ \  2\ \  6$$
+\begin{figure}[H] %[h] Aqui [b] para button [t] para top
+\begin{center}
+\includegraphics[width=140pt]{../imgs/caso2-ej3.png}
+\end{center}
+\caption{Ejemplo de varias soluciones}
+\end{figure}
+\textbf{Parámetro de entrada:} $$3\ \  3\ \  7$$
 $$1\ \  4\ \  10$$
 $$1\ \  5\ \  10$$
 $$2\ \ 5\ \  10$$
 $$2\ \ 4\ \  10$$
 $$3\ \  5\ \  10$$
 $$3\ \  4\ \  10$$
-\textbf{Parámetro de salida:} $$20\ \ 2\ \ 1\ \ 4\ \ 1\ \ 5$$
+$$3\ \  6\ \  10$$
+\textbf{Parámetro de salida:} $$30\ \ 3\ \ 1\ \ 4\ \ 1\ \ 5\ \ 3\ \ 6$$
 
 \item Para finalizar, probamos un caso compuesto por varias componentes no conexas. Para ello, creamos una instancia que posee tres pares de (clientes, fábricas) no conectadas entre ellos. \newline
+\begin{figure}[H] %[h] Aqui [b] para button [t] para top
+\begin{center}
+\includegraphics[width=140pt]{../imgs/caso4-ej3.png}
+\end{center}
+\caption{Ejemplo varias componentes conexas.}
+\end{figure}
 \textbf{Parámetro de entrada:} $$3\ \  3\ \  4$$
 $$1\ \  4\ \  10$$
 $$1\ \  6\ \  10$$
-$$5\ \  2\ \  25$$
-$$3\ \  6\ \  30$$																									
-\textbf{Parámetro de salida:} $$45\ \ 3\ \ 1\ \ 4\ \ 1\ \ 6\ \ 5\ \ 2$$
+$$5\ \  2\ \  20$$
+$$3\ \  6\ \  100$$																									
+\textbf{Parámetro de salida:} $$40\ \ 3\ \ 1\ \ 4\ \ 1\ \ 6\ \ 5\ \ 2$$
 
 \end{itemize}
 
 
 De este modo, logramos abarcar los casos límite en los que la implementación pudiera haber encontrado algún problema. Dado que los resultados obtenidos fueron los esperados, determinamos que para todas las instancias válidas posibles de entrada nuestra implementación resulta correcta.
+
 
 \subsection{Experimentación}
 Para las pruebas de complejidad empírica, generamos instancias aleatorias de grafos alterando la cantidad de nodos y aristas. Estas instancias fueron generadas en $C++$ con la función $rand()$. La cantidad de grafos generados se comprendió entre 200 y 100000, agregando de a 200 en cada iteración. Las mediciones de tiempo en nanosegundos se realizaron con la función $high\ resolution\ clock$\footnote{http://en.cppreference.com/w/cpp/chrono/high\_resolution\_clock} de la librería $Chrono$ de $C++$. Debido a que éstas fueron realizadas en nanosegundos, las pruebas cuyo tamaño de la entrada era menor a 200 se realizaba en mayor tiempo que las instancias más grandes pues el procesador le otorga más atención al no realizar cambio de contexto. De este modo, logramos medir las pruebas de nuestro algoritmo para comprobar que la complejidad correspondiera con la mencionada anteriormente.
