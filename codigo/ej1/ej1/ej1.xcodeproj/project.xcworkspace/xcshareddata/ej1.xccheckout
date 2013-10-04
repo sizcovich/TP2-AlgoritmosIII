@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11C8FACB-7284-4BF0-8E44-711FF5982763</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ej1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>430B929B-D7C8-4956-A5F4-035CD1A2EAAD</key>
+		<string>http://tpsh.dc.uba.ar/svn/iorellana-tp2algo3</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>codigo/ej1/ej1/ej1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>430B929B-D7C8-4956-A5F4-035CD1A2EAAD</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>430B929B-D7C8-4956-A5F4-035CD1A2EAAD</key>
+		<string>http://tpsh.dc.uba.ar/svn/iorellana-tp2algo3</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://tpsh.dc.uba.ar/svn/iorellana-tp2algo3/codigo/ej1/ej1/ej1.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>430B929B-D7C8-4956-A5F4-035CD1A2EAAD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>430B929B-D7C8-4956-A5F4-035CD1A2EAAD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tp2algo3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
