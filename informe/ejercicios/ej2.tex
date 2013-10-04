@@ -438,7 +438,7 @@ Para las pruebas de complejidad empírica, generamos instancias aleatorias de co
 
 Las funciones de complejidad con las que se compararon nuestros gráficos de tiempo fueron ajustadas por algoritmos matemáticos (proporcionados por \textbf{sci davis}). Dichos algoritmos se encargaron de multiplicarle y sumarle constantes a las funciones con el fin de que éstas se ajustaran a nuestros resultados sin modificar el comportamiento de las funciones utilizadas para comparar.
 
-En este caso, el único valor que puede ser considerado para las ejecuciones es la cantidad de nodos dado que el algoritmo toma, como parámetros de entrada, grafos de tipo árbol. Luego, la cantidad de aristas está definida de acuerdo a la cantidad de nodos del árbol. Es por ello que la variación de otro tipo de parámetro no resultaría relevante para experimentar. Por lo tanto, ejecutamos el algoritmo con números aleatorios entre $1$ y $150$ correspondientes a los pesos de las aristas.
+En este caso, el único valor que puede ser considerado para las ejecuciones es la cantidad de nodos dado que el algoritmo toma, como parámetros de entrada, grafos de tipo árbol. Luego, la cantidad de aristas está definida de acuerdo a la cantidad de nodos del árbol. Es por ello que la variación de otro tipo de parámetro no resultaría relevante para experimentar. Por lo tantoejecutamos el algoritmo con números aleatorios entre $1$ y $150$ correspondientes a los pesos de las aristas.
 
 \begin{figure}[H]
 \begin{center}
@@ -458,10 +458,11 @@ $$B  = -0,176228394042768$$
 
 \subsection{Preguntas adicionales}
 
+
 \subsubsection{Pregunta 1}
-En primer lugar, mostremos un contraejemplo en el que se pueda ver que es posible resolver las dos partes por separado de manera óptima pero que aún así haya una solución en la que la replicación termine en menos tiempo.\newline
+A continuacion mostraremos un contraejemplo en el que denote la posibilidad de resolver las dos partes por separado de manera optima pero que aun asi haya una solucion en la que la replicacon termine en menos tiempo. \newline
 \newline
-Supongamos que tenemos el siguiente grafo:\newline
+Tomemos el siguiente ejemplo:\newline
 
 \textbf{Formato de entrada:}
 $$5\ 5$$
@@ -470,33 +471,32 @@ $$5\ \ 3\ \ 1$$
 $$3\ \ 2\ \ 1$$
 $$1\ \ 5\ \ 1$$
 $$3\ \ 1\ \ 1$$
-
-\begin{figure}[H] %[h] Aqui [b] para button [t] para top
-\begin{center}
-\includegraphics[width=250pt]{../imgs/pregAdicional01.jpg}
-\caption{Pregunta 1 - entrada.}
-\end{center}
-\end{figure}
-\newline
-Ahora ejecutemos nuestro programa y veamos qué es lo que nos devuelve. \newline
-
 
 \textbf{Formato de salida:}
 $$4\ 5\ 4\ 4\ 3\ 5\ 3\ 3\ 2\ 1\ 5$$
 
+\newline
+
 \begin{figure}[H] %[h] Aqui [b] para button [t] para top
-\begin{center}
-\includegraphics[width=250pt]{../imgs/pregAdicional02.jpg}
-\caption{Pregunta 1 - salida.}
-\end{center}
+%\begin{center}
+\begin{minipage}[H]{180pt}
+\includegraphics[width=180pt]{../imgs/pregAdicional01.jpg}
+\caption{Ejemplo de entrada.}
+\end{minipage}
+\hfill
+\begin{minipage}[H]{180pt}
+    \includegraphics[width=180pt]{../imgs/pregAdicional02.jpg}
+    \caption{Ejemplo de salida.}
+\end{minipage}
+%\end{center}
 \end{figure}
 
-\newline
-Como podemos observar en el gráfico anterior, el nodo $máster$ es el 5 y el costo de replicación es igual a 2. Otra solución posible hubiera sido la que tiene al 3 como nodo $máster$ ya que ésta también tiene costo de replicación 2. \newline
-\newline
-Analicemos por qué nuestro algoritmo devolvió dicha solución. En primer lugar, el árbol generador mínimo ($AGM$) retornado, se encuentra conformado por las primeras cuatro aristas que ingresamos como parámetro de entrada. Ésto se debe a que nuestro algoritmo primero las ordena por su peso y luego toma las menores para generar el $AGM$. En este caso, como todas las aristas tienen el mismo peso, el algoritmo no cambia su orden y genera el árbol con las primeras cuatro. \newline
-\newline
-Ahora veamos qué ocurre si cambiamos el orden de las aristas:
+%\newline
+%Como podemos observar en el gráfico anterior, el nodo $máster$ es el 5 y el costo de replicación es igual a 2. Otra solución posible hubiera %%sido la que tiene al 3 como nodo $máster$ ya que ésta también tiene costo de replicación 2. \newline
+%\newline
+%Analicemos por qué nuestro algoritmo devolvió dicha solución. En primer lugar, el árbol generador mínimo ($AGM$) retornado, se encuentra conformado por las primeras cuatro aristas que ingresamos como parámetro de entrada. Ésto se debe a que nuestro algoritmo ordena primero las aristas por su peso y luego toma las menores para generar el $AGM$. En este caso, como todas las aristas tienen el mismo peso, el algoritmo no cambia su orden y genera el $AGM$ con las primeras cuatro. \newline
+%\newline
+ Ahora veamos qué ocurre si cambiamos el orden de las aristas (cambiaremos de lugar las cuarta y quinta aristas):
 
 \textbf{Formato de entrada:}
 $$5\ 5$$
@@ -505,56 +505,45 @@ $$5\ \ 3\ \ 1$$
 $$3\ \ 2\ \ 1$$
 $$3\ \ 1\ \ 1$$
 $$1\ \ 5\ \ 1$$
-
-\newline
-Para ello, cambiemos de lugar la cuarta y quinta aristas \newline
 
 \textbf{Formato de salida:}
 $$4\ 3\ 4\ 4\ 3\ 5\ 3\ 3\ 2\ 3\ 1$$
 
 \begin{figure}[H] %[h] Aqui [b] para button [t] para top
 \begin{center}
-\includegraphics[width=250pt]{../imgs/pregAdicional03.jpg}
-\caption{Pregunta 1 - salida2.}
+\includegraphics[width=180pt]{../imgs/pregAdicional03.jpg}
+\caption{Ejemplo de salida modificado.}
 \end{center}
 \end{figure}
 
-\newline
-Al realizar dicho cambio, el $AGM$ resultante varía. Esto se debe a que, nuevamente, nuestro algoritmo lo genera con las primeras 4 aristas. Sin embargo, esta distribución sigue siendo solución de nuestro problema ya que el costo de estas sigue siendo 4. \newline
-Ahora, observemos qué sucede con nuestro nodo $máster$. El nodo que nos da esta solución es 3, que también era una posible solución del $AGM$ anterior. La única diferencia con la solución anterior es que, ahora, nuestro costo de replicación es igual a 1, lo que significa que éste es menor. \newline
-\newline
-Este es un claro ejemplo de un grafo que se resolvió dos veces de manera óptima pero cuya solución inicial incidió de distinto modo en la solución del segundo ítem, donde la diferencia culminó en el orden de ingreso de los parámetros.
-\newline
-\newline
-En términos generales, esto puede ocurrir para cualquier grafo en el que la solución del $ítem\ a$ (aplicar el algoritmo de Kruskal) no sea única. Esto se debe a que de todas las soluciones óptimás para este ítem van a tener una solución optima para el $ítem\ b$. Al hacer esto, vamos a encontrar un subconjunto de las soluciones posibles del  $ítem\ a$ que van a tener un menor costo de replicación que las demás.
-\newline
-\newline
+ Con dicho cambio el $AGM$ resultante difiere del anterior. Esto se debe a que la manera con la que algoritmo selecciona las aristas depende, luego del peso, del orden con el que se ingresan. Sin embargo, esta distribución sigue siendo solución porque mantiene el costo total que es 4. \newline
+
+ Ahora, observemos qué sucede con nuestro nodo $máster$. El nodo máster que nos da esta solución es 3, que también era una posible solución del $AGM$ anterior. La única diferencia con la solución anterior es que ahora el costo de replicación es igual a 1, lo que significa que éste es menor. \newline
+
+En términos generales, esto puede ocurrir para cualquier grafo en el que la solución del $ítem\ a$ (aplicar el algoritmo de $Kruskal$) no sea única, pudiendo ocacionar que varios subconjuntos del $ítem\ a$ tengan menor costo de replicacion.\newline
+
 Dos posibles soluciones a esto serian:
 \begin{itemize}
-\item Para todas las soluciones posibles del  $ítem\ a$, calcular el $ítem\ b$ y quedarnos con la de menor costo de replicación.
+\item Para todas las soluciones posibles del  $ítem\ a$, calcular el $ítem\ b$ y me quedo con la que me de menor costo de replicación.
 \item Modificar el  $ítem\ a$ para que ordene primero por peso de la arista y luego por la cantidad (de mayor a menor) de nodos adyacentes que tienen ambos extremos de esta. 
 \end{itemize}
-
 \subsubsection{Pregunta 2}
 
  Por otro lado, veamos de qué modo puede modificarse la solución si en lugar de transmitir por $broadcast$ se lo hace por $multicast$, enviando un paquete a cada destino sin hacer copias. \newline
 
- La principal diferencia entre uno y otro radica en que, al primero ($broadcast$), le alcanza con mandar la información una única vez. Esto se debe a que cada servidor se guarda y envía una copia de la misma, mientras que el segundo envía una copia a un nodo por vez, aumentando el costo de envío de un nodo $a$ a uno nodo $b$ a la sumatoria del costo de cada arista del camino. Entonces para poder resolver el problema es necesario contemplar que dependiendo del nodo que elijamos, éste provoca que los pesos de las aristas se vean modificados. En este nuevo contexto, ya no nos sirve encontrar un arbol generador minimo, ya que este descarta aristas que pueden producir que los pesos que tienen las que quedaron pierdan sentido, con lo cual fue necesario un nuevo enfoque, en el cual por cada nodo que tenemos, calculamos los nuevos pesos de las aristas dependiendo la cantidad de mensajes que tengamos que enviar para que el multicast llegue a todos los servidores y luego calculamos los caminos minimos desde el nodo en cuestion hacia los demas. \newline
+ La principal diferencia entre uno y otro radica en que el primero ($broadcast$) con mandar una vez la informacion le alcanza, ya que cada servidor se guarda y enviá una copia, mientras que el segundo lo que hace es enviar una copia a cada nodo, por lo que realizar un envío de un nodo $a$ a un nodo $b$ cuesta la sumatoria del costo de cada arista del camino. \newline
 
-Para calcular los pesos de las aristas calculamos la distancia entre el nodo en cuestión y los demás nodos, de esta forma obtenemos la cantidad de paquetes que deberíamos enviar y que camino deben recorrer, luego con algunas cuentas matematicas podemos calcular el peso de las aritas multiplicando la cantidad de paquetes por el costo del enlace.
-
-Luego, una posible solución priorizando el costo de envío de datos es: \newline
+ Dicho lo anterior, una posible solución priorizando el costo de envió de datos es: \newline
 
 \begin{algorithm}[H]
 	\SetAlgoLined
-	\caption{Minimización por Múlticast}
+	\caption{Minimización de Caminos entre Fábricas y Clientes}
 	\KwIn{Grafo $G$}
 	\KwOut{Grafo}
 	\ \ \textbf{Grafo} Gmin \\
 	\ \ \textbf{Entero} pesoMin = 0 \\
-	\ \ \textbf{Por cada}(n \in Nodos(G)) \\
-				\ \ \ \ \textbf{Grafo Gpesos} = $CalcularPesos(n,G)$ \\
-				\ \ \ \ \textbf{Grafo} G' = $Dijktra$(n,Gpesos) \\
+	\ \ \textbf{Mientras}(n \in Nodos(G)) \\
+				\ \ \ \ \textbf{Grafo} G' = $Dijktra$(n,G) \\
 				\ \ \ \ \textbf{Si} (pesoMin $\leq$ pesoTotal(G')) \\
 	      \ \ \ \ \ \ \ Gmin = G' \\
 	      \ \ \ \ \ \ \ pesoMin = pesoTotal(G') \\
@@ -563,6 +552,6 @@ Luego, una posible solución priorizando el costo de envío de datos es: \newlin
 		\ \ \textbf{return} Gmin 
 \end{algorithm}
 
-Donde $pesoTotal$ calcula la sumatoria del peso de todas las aristas, $CalcularPesos(n,G)$ calcula los nuevos pesos basandose en el nodo elegido y la cantidad de paquetes que debe enviar, eso se logra usando $bfs$ y luego recorriendo los nodos nuevamente para calcular los pesos. $Dijktra$\footnote{Cormen, Thomas H., Charles E. Leiserson, and Ronald L. Rivest. p.658} calcula los caminos mínimos de un nodo hacia todos los demás. De esta manera, nos vamos quedando con aquella solución cuya sumatoria de las aristas posee el menor peso. \newline
+Donde $pesoTotal$ calcula la sumatoria del peso de todas las aristas y  $Dijktra$\footnote{Cormen, Thomas H., Charles E. Leiserson, and Ronald L. Rivest. p.658} calcula los caminos mínimos de un nodo hasta todos los demás. De esta manera nos vamos quedando con aquella solución que la sumatoria de todas las aristas posea menor peso. \newline
 
-Esta solución tiene una complejidad de $\mathcal{O}(n^{3})$, siendo $n$ la cantidad de servidores (nodos) ya que el algoritmo se aplica a cada vértice.\newline
+Esta solución tiene una complejidad de $\mathcal{O}(n^{3})$ siendo n la cantidad de servidores (nodos), ya que por cada vértice aplica dicho algoritmo.\newline
