@@ -539,19 +539,22 @@ Dos posibles soluciones a esto serian:
 
  Por otro lado, veamos de qué modo puede modificarse la solución si en lugar de transmitir por $broadcast$ se lo hace por $multicast$, enviando un paquete a cada destino sin hacer copias. \newline
 
- La principal diferencia entre uno y otro radica en que, al primero ($broadcast$), le alcanza con mandar la información una única vez. Esto se debe a que cada servidor se guarda y envía una copia de la misma, mientras que el segundo envía una copia a un nodo por vez, aumentando el costo de envío de un nodo $a$ a uno nodo $b$ a la sumatoria del costo de cada arista del camino. \newline
+ La principal diferencia entre uno y otro radica en que, al primero ($broadcast$), le alcanza con mandar la información una única vez. Esto se debe a que cada servidor se guarda y envía una copia de la misma, mientras que el segundo envía una copia a un nodo por vez, aumentando el costo de envío de un nodo $a$ a uno nodo $b$ a la sumatoria del costo de cada arista del camino. Entonces para poder resolver el problema es necesario contemplar que dependiendo del nodo que elijamos, éste provoca que los pesos de las aristas se vean modificados. En este nuevo contexto, ya no nos sirve encontrar un arbol generador minimo, ya que este descarta aristas que pueden producir que los pesos que tienen las que quedaron pierdan sentido, con lo cual fue necesario un nuevo enfoque, en el cual por cada nodo que tenemos, calculamos los nuevos pesos de las aristas dependiendo la cantidad de mensajes que tengamos que enviar para que el multicast llegue a todos los servidores y luego calculamos los caminos minimos desde el nodo en cuestion hacia los demas. \newline
 
- Luego, una posible solución priorizando el costo de envío de datos es: \newline
+Para calcular los pesos de las aristas calculamos la distancia entre el nodo en cuestión y los demás nodos, de esta forma obtenemos la cantidad de paquetes que deberíamos enviar y que camino deben recorrer, luego con algunas cuentas matematicas podemos calcular el peso de las aritas multiplicando la cantidad de paquetes por el costo del enlace.
+
+Luego, una posible solución priorizando el costo de envío de datos es: \newline
 
 \begin{algorithm}[H]
 	\SetAlgoLined
-	\caption{Resolución por Multicast}
+	\caption{Minimización por Múlticast}
 	\KwIn{Grafo $G$}
 	\KwOut{Grafo}
 	\ \ \textbf{Grafo} Gmin \\
 	\ \ \textbf{Entero} pesoMin = 0 \\
-	\ \ \textbf{Mientras}(n \in Nodos(G)) \\
-				\ \ \ \ \textbf{Grafo} G' = $Dijktra$(n,G) \\
+	\ \ \textbf{Por cada}(n \in Nodos(G)) \\
+				\ \ \ \ \textbf{Grafo Gpesos} = $CalcularPesos(n,G)$ \\
+				\ \ \ \ \textbf{Grafo} G' = $Dijktra$(n,Gpesos) \\
 				\ \ \ \ \textbf{Si} (pesoMin $\leq$ pesoTotal(G')) \\
 	      \ \ \ \ \ \ \ Gmin = G' \\
 	      \ \ \ \ \ \ \ pesoMin = pesoTotal(G') \\
@@ -560,6 +563,6 @@ Dos posibles soluciones a esto serian:
 		\ \ \textbf{return} Gmin 
 \end{algorithm}
 
-Donde $pesoTotal$ calcula la sumatoria del peso de todas las aristas y $Dijktra$\footnote{Cormen, Thomas H., Charles E. Leiserson, and Ronald L. Rivest. p.658} calcula los caminos mínimos de un nodo hacia todos los demás. De esta manera, nos vamos quedando con aquella solución cuya sumatoria de las aristas posee el menor peso. \newline
+Donde $pesoTotal$ calcula la sumatoria del peso de todas las aristas, $CalcularPesos(n,G)$ calcula los nuevos pesos basandose en el nodo elegido y la cantidad de paquetes que debe enviar, eso se logra usando $bfs$ y luego recorriendo los nodos nuevamente para calcular los pesos. $Dijktra$\footnote{Cormen, Thomas H., Charles E. Leiserson, and Ronald L. Rivest. p.658} calcula los caminos mínimos de un nodo hacia todos los demás. De esta manera, nos vamos quedando con aquella solución cuya sumatoria de las aristas posee el menor peso. \newline
 
 Esta solución tiene una complejidad de $\mathcal{O}(n^{3})$, siendo $n$ la cantidad de servidores (nodos) ya que el algoritmo se aplica a cada vértice.\newline
