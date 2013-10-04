@@ -300,7 +300,7 @@ Para las pruebas de complejidad empírica, generamos instancias aleatorias de gr
 Las funciones de complejidad con las que se compararon nuestros gráficos de tiempo fueron ajustadas por algoritmos matemáticos (proporcionados por \textbf{sci davis}). Dichos algoritmos se encargaron de multiplicarle y sumarle constantes a las funciones con el fin de que éstas se ajustaran a nuestros resultados sin modificar el comportamiento de las funciones utilizadas para comparar.
 
 El algoritmo generador de instancias utilizado garantiza que siempre existe al menos una fábrica conectada directa o indirectamente a un cliente, de forma tal que la instancia no se vuelva inválida.
-\newpage
+
 En primer lugar, generamos grafos aleatorios variando la cantidad de nodos y dejando la cantidad de aristas en un valor fijo. Este valor es un porcentaje de la cantidad máxima de aristas que puede tener el grafo. El elegido para determinar un grafo denso fue el $50\%$ de la cantidad máxima de aristas que puede tener el grafo. La cantidad de nodos que representan fábricas es el $50\%$.
 
 \begin{figure}[H]
@@ -310,7 +310,7 @@ En primer lugar, generamos grafos aleatorios variando la cantidad de nodos y dej
 \end{figure}
 
 En este caso, se puede apreciar cómo la complejidad se adapta perfectamente a los valores de entrada.\\
-La función utilizada para aproximar nuestros valores resultantes luego de las distintas ejecuciones fue $$a*(((20*(x*(x-1)/2)) / 100) + log(x)) + b$$.
+La función utilizada para aproximar nuestros valores resultantes luego de las distintas ejecuciones fue $$a*(((20*(x*(x-1)/2)) / 100) + log(x)) + b.$$
 En este caso, los valores que aproximan la función a nuestros datos son:
 
 $$desde\ x = 200\ a\ x = 27.600 $$
@@ -320,8 +320,9 @@ $$b  = -1,01492247788281 $$
 Luego, generamos un lote de pruebas para grafos livianos, a diferencia de los anteriores, éstos se conforman por un $5\%$ de aristas y $5\%$ de nodos que representan fábricas.
 
 \begin{figure}[H]
+\begin{center}
 	\includegraphics[width=350pt]{../tests/ej3/EJ3-nodo-var-liviano.png}
-%\end{center}
+\end{center}
 \end{figure}
 
 Al igual que en el caso anterior, se puede apreciar cómo la complejidad se adapta perfectamente a los valores de entrada. Con respecto al caso anterior, los tiempos de ejecución son más rápidos con lo cual se pudo realizar una mayor cantidad de pruebas. Esto deja en evidencia que la cantidad de aristas impacta directamente en la complejidad, tal como mostramos en el análisis del mismo.\\
